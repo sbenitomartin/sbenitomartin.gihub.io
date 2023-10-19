@@ -7,6 +7,7 @@
 		<meta name="color-scheme" content="dark light" />
 		%sveltekit.head%
 
+		<link href="%sveltekit.assets%/css/bootstrap.min.css" rel="stylesheet">
 		<style>
 			body {
 				--bg-1: hsl(0, 0%, 100%);
@@ -256,7 +257,7 @@
 	</head>
 	<body>
 		<div style="display: contents">%sveltekit.body%</div>
-
+		<script src="%sveltekit.assets%/js/bootstrap.bundle.min.js"></script>
 		<script>
 			const theme = new URL(window.location).searchParams.get('theme');
 
