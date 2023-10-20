@@ -12,6 +12,10 @@
 <div class="container px-4 px-lg-5">
 	<div class="row gx-4 gx-lg-5 justify-content-center">
 		<div class="col-md-10 col-lg-8 col-xl-7">
+			<!-- Page Header-->
+			<header class="masthead" style="background-color:transparent; padding-bottom: 0; margin-bottom: -2rem; background-image: url('');">
+				
+			</header>
 			<!-- Posts list-->
 			<div id="post-list"></div>
 				{#each data.posts as { slug, title, subtitle, author, authorSlug, date }}
@@ -21,7 +25,7 @@
 							<h2 class="post-title">{title}</h2>
 							<h3 class="post-subtitle">{subtitle}</h3>
 						</a>
-						<p class="post-meta">Posted by <a class="link-dark link-underlined" href="{base}/author/{authorSlug}">{author}</a> on {date}</p>
+						<p class="post-meta">Posted by <a class="link-light link-underlined" href="{base}/author/{authorSlug}">{author}</a> on {date}</p>
 					</div>
 					<!-- Divider-->
 					<hr class="my-4" />

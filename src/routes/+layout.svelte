@@ -8,7 +8,7 @@
 	<a href="{base}/post">posts list</a>
 </nav> -->
 
-<nav class="navbar navbar-expand-lg shadow-none" id="mainNav">
+<nav class="navbar navbar-expand-lg shadow-none navbar-light" id="mainNav">
     <div class="container px-4 px-lg-5">
         <a class="navbar-brand" href="{base}/">{blog_title}</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">

@@ -13,7 +13,7 @@
 			<div class="col-md-10 col-lg-8 col-xl-7">
 				<div class="page-heading">
 					<span class="subheading">This blog is a personal project that tries to be a place to put a little bit of our souls and get away from the immediacy that surround us nowadays.</span>
-					<span class="subheading">Created by <a class="link-dark link-underlined" href="/author/?id=Sergio">Sergio Benito</a></span>
+					<span class="subheading">Created by <a class="link-light link-underlined" href="/author/?id=Sergio">Sergio Benito</a></span>
 				</div>
 			</div>
 		</div>

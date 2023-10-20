@@ -16,7 +16,7 @@
 					<h1>Error {$page.status}</h1>
 					<span class="subheading">{$page.error.message}</span>
 					<p></p>
-					<span class="subheading">Return to <a class="link-dark link-underlined" href="{base}/">home</a></span>
+					<span class="subheading">Return to <a class="link-light link-underlined" href="{base}/">home</a></span>
 				</div>
 			</div>
 		</div>
