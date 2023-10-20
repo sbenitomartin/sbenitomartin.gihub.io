@@ -1,4 +1,5 @@
 <script>
+    import { base } from '$app/paths';
 	export let data;
 </script>
 
@@ -6,6 +7,6 @@
 
 <ul>
 	{#each data.summaries as { slug, title }}
-		<li><a href="/post/{slug}">{title}</a></li>
+		<li><a href="{base}/post/{slug}">{title}</a></li>
 	{/each}
 </ul>

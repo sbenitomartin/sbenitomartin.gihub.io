@@ -3,13 +3,13 @@
 </script>
 
 <!-- <nav>
-	<a href="/">home</a>
-	<a href="/post">posts list</a>
+	<a href="{base}/">home</a>
+	<a href="{base}/post">posts list</a>
 </nav> -->
 
 <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
     <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="/">Mejillón Gacela</a>
+        <a class="navbar-brand" href="{base}/">Mejillón Gacela</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
         </button>
