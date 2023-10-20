@@ -6,4 +6,26 @@
 	<title>Contact | {blog_title}</title>
 </svelte:head>
 
-this is contact
+<!-- Page Header-->
+<header class="masthead">
+	<div class="container position-relative px-4 px-lg-5">
+		<div class="row gx-4 gx-lg-5 justify-content-center">
+			<div class="col-md-10 col-lg-8 col-xl-7">
+				<div class="page-heading">
+					<h2>Want to get in touch?</h2>
+					<span class="subheading"><p> Send me an email to <a class="link-dark link-underlined" href="mailto:sergiobm96@gmail.com">sergiobm96@gmail.com</a></p></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<!-- Main Content-->
+<main class="mb-4">
+	<div class="container px-4 px-lg-5">
+		<div class="row gx-4 gx-lg-5 justify-content-center">
+			<div class="col-md-10 col-lg-8 col-xl-7">
+				
+			</div>
+		</div>
+	</div>
+</main>
