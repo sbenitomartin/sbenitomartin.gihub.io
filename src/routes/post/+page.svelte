@@ -3,6 +3,10 @@
 	export let data;
 </script>
 
+<svelte:head>
+	<title>Posts | Mejillón Gacela</title>
+</svelte:head>
+
 <h1>post</h1>
 
 <ul>
