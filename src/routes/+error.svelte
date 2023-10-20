@@ -1,9 +1,10 @@
 <script>
+	import { blog_title } from '$lib/constants';
 	import { page } from '$app/stores';
 </script>
 
 <svelte:head>
-	<title>Error | Mejillón Gacela</title>
+	<title>Error | {blog_title}</title>
 </svelte:head>
 
 <h1>{$page.status} {$page.error.message}</h1>

@@ -1,0 +1,1 @@
+export const blog_title = 'Mejillón Gacela'

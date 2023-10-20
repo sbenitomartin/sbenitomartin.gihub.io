@@ -1,10 +1,11 @@
 <script>
+	import { blog_title } from '$lib/constants';
     import { base } from '$app/paths';
 	export let data;
 </script>
 
 <svelte:head>
-	<title>Posts | Mejillón Gacela</title>
+	<title>Posts | {blog_title}</title>
 </svelte:head>
 
 <h1>post</h1>

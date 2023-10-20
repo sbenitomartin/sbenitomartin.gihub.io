@@ -1,5 +1,9 @@
+<script>
+	import { blog_title } from '$lib/constants';
+</script>
+
 <svelte:head>
-	<title>About | Mejillón Gacela</title>
+	<title>About | {blog_title}</title>
 </svelte:head>
 
 this is about
