@@ -6,7 +6,7 @@ export const posts = [
         date: "20230810",
         file: "20230810",
         visible: true,
-		slug: 'Hunger',
+		slug: 'hunger',
 		content:
 		`
 			<blockquote class="blockquote">I'm starving. Omg. Look at that pizza, it looks delicious. I'm gonna eat three of them. I, I, I’m idealizing it, ok, it's true. But I am so hungry.</blockquote>
@@ -28,7 +28,7 @@ export const posts = [
         date: "20230804",
         file: "20230804",
         visible: true,
-		slug: 'Cogerte de la mano',
+		slug: 'cogerte-de-la-mano',
 		content:
 		`
 			<p>Otro día más que me despierto a tu lado, salvo porque tras tres segundos empiezo a darme cuenta de que estoy soñando despierto otra vez, y tras dos segundos más el sueño se rompe del todo, y me siento peor que al principio.</p>
@@ -47,7 +47,7 @@ export const posts = [
         date: "20230927",
         file: "20230927",
         visible: true,
-		slug: 'The impulse to survive',
+		slug: 'the-impulse-to-survive',
 		content:
 		`
 			<p>We are all animals and so we all have an impulse to survive. From the rich and businessmen that make use of the work force to perpetuate their patrimony and power. But humankind makes the same using its power over animals, to feed them and killing them in order to eat them.</p> 
@@ -65,7 +65,7 @@ export const posts = [
 		date: "20231007",
 		file: "20231007",
 		visible: true,
-		slug: 'Some pictures taken in Amsterdam',
+		slug: 'some-pictures-taken-in-amsterdam',
 		content:
 		`
 			<div class="lightbox">
@@ -86,13 +86,13 @@ export const posts = [
 		`
 	},
 	{
-		title: "post template",
+		title: "Post Template",
 		subtitle: "",
 		author: "",
 		date: "20230101",
 		file: "20230101",
 		visible: false,
-		slug: 'post template',
+		slug: 'post-template',
 		content:
 		`
 			<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
@@ -120,13 +120,13 @@ export const posts = [
 		`
 	},
 	{
-		title: "gallery template",
+		title: "Gallery Template",
 		subtitle: "",
 		author: "",
 		date: "20230101",
 		file: "20230101",
 		visible: false,
-		slug: 'gallery template',
+		slug: 'gallery-template',
 		content:
 		`
 			<div class="lightbox">
