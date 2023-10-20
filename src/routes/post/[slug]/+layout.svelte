@@ -1,6 +1,6 @@
-<script>
+<!-- <script>
 	export let data;
-</script>
+</script> -->
 
 <div class="layout">
 	<main>
