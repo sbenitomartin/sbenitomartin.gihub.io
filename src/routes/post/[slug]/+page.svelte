@@ -1,8 +1,6 @@
 <script>
 	import { blog_title } from '$lib/constants';
 	export let data;
-
-	console.log(base.toString());
 </script>
 
 <svelte:head>
