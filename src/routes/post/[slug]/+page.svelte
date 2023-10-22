@@ -1,6 +1,9 @@
 <script>
 	import { blog_title } from '$lib/constants';
+	import { base } from '$app/paths';
 	export let data;
+
+	console.log(base.toString());
 </script>
 
 <svelte:head>
@@ -28,7 +31,7 @@
 	<div class="container px-4 px-lg-5">
 		<div class="row gx-4 gx-lg-5 justify-content-center">
 			<div class="col-md-10 col-lg-8 col-xl-7">
-				<div>{@html data.post.content}</div>
+				<div>{@html data.post.content.replaceAll("{base}", base)}</div>
 			</div>
 		</div>
 	</div>

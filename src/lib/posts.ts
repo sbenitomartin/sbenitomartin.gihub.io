@@ -71,15 +71,15 @@ export const posts = [
 			<div class="lightbox">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 mb-4 mb-lg-0">
-						<img src="/img/posts/20231007/amsterdam-street-1-1-t.jpg" srcset="/img/posts/20231007/amsterdam-street-1-1-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="/img/posts/20231007/amsterdam-street-1-2-t.jpg" srcset="/img/posts/20231007/amsterdam-street-1-2-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="/img/posts/20231007/amsterdam-street-1-3-t.jpg" srcset="/img/posts/20231007/amsterdam-street-1-3-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="/img/posts/20231007/amsterdam-street-1-4-t.jpg" srcset="/img/posts/20231007/amsterdam-street-1-4-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="/img/posts/20231007/amsterdam-street-1-5-t.jpg" srcset="/img/posts/20231007/amsterdam-street-1-5-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="/img/posts/20231007/amsterdam-street-1-6-t.jpg" srcset="/img/posts/20231007/amsterdam-street-1-6-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="/img/posts/20231007/amsterdam-street-1-7-t.jpg" srcset="/img/posts/20231007/amsterdam-street-1-7-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="/img/posts/20231007/amsterdam-street-1-8-t.jpg" srcset="/img/posts/20231007/amsterdam-street-1-8-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="/img/posts/20231007/amsterdam-street-1-9-t.jpg" srcset="/img/posts/20231007/amsterdam-street-1-9-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-1-1-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-1-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-1-2-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-2-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-1-3-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-3-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-1-4-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-4-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-1-5-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-5-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-1-6-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-6-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-1-7-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-7-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-1-8-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-8-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-1-9-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-9-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
 					</div>
 				</div>
 			</div>
@@ -107,7 +107,7 @@ export const posts = [
 			<p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
 			<h2 class="section-heading">Reaching for the Stars</h2>
 			<p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-			<a href="#!"><img class="img-fluid" src="/img/posts/template/post-sample-image.jpg" alt="..." /></a>
+			<a href="#!"><img class="img-fluid" src="{base}/img/posts/template/post-sample-image.jpg" alt="..." /></a>
 			<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
 			<p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
 			<p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
@@ -156,7 +156,7 @@ export const posts = [
 						/>
 					
 						<img
-							src="/img/posts/template/post-sample-image.jpg"
+							src="{base}/img/posts/template/post-sample-image.jpg"
 							class="w-100 shadow-1-strong rounded mb-4"
 							alt="Boat on Calm Water"
 						/>
@@ -164,7 +164,7 @@ export const posts = [
 				
 					<div class="col-lg-4 mb-4 mb-lg-0">
 						<img
-							src="/img/posts/template/post-bg.jpg"
+							src="{base}/img/posts/template/post-bg.jpg"
 							class="w-100 shadow-1-strong rounded mb-4"
 							alt="Waves at Sea"
 						/>

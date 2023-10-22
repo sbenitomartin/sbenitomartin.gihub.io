@@ -1,6 +1,6 @@
 <script>
-	import { blog_title } from '$lib/constants'
-	import { base } from '$app/paths';;
+	import { blog_title } from '$lib/constants';
+	import { base } from '$app/paths';
 </script>
 
 <svelte:head>
