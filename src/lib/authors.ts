@@ -1,8 +1,10 @@
+import { base } from '$app/paths';
+
 export const authors = [
 	{
 		id: 1,
         name: "Sergio Benito",
-        image: "/img/authors/sergioselfportrait-1.jpg",
+        image: "/img/authors/sergioselfportrait-1.jpg".replaceAll("{base}", base),
 		slug: 'sergio-benito',
 		content:
 		`

@@ -1,6 +1,5 @@
 <script>
 	import { blog_title } from '$lib/constants';
-	import { base } from '$app/paths';
 	export let data;
 </script>
 
@@ -17,7 +16,7 @@
 					<h1>{data.author.name}</h1>
 					<span class="meta">
 						<img class="img-fluid rounded-circle" style="max-width: 50%; height: auto;" src="{data.author.image}" alt="Profile picture of the author" />
-                		<span class="subheading">Hi, my name is <b>{data.author.name}</b>. {@html data.author.content.replaceAll("{base}", base)}</span>
+                		<span class="subheading">Hi, my name is <b>{data.author.name}</b>. {@html data.author.content.replace("{base}", base)}</span>
 					</span>
 				</div>
 			</div>

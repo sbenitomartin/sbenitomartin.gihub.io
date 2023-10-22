@@ -1,3 +1,5 @@
+import { base } from '$app/paths';
+
 export const posts = [
 	{
 		title: "Hunger",
@@ -83,7 +85,7 @@ export const posts = [
 					</div>
 				</div>
 			</div>
-		`
+		`.replaceAll("{base}", base)
 	},
 	{
 		title: "Post Template",
@@ -117,7 +119,7 @@ export const posts = [
 				&middot; Images by
 				<a class="link-light link-underlined" href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>
 			</p>
-		`
+		`.replaceAll("{base}", base)
 	},
 	{
 		title: "Gallery Template",
@@ -178,6 +180,6 @@ export const posts = [
 					</div>
 				</div>
 			</div>
-		`
+		`.replaceAll("{base}", base)
 	}
 ];
