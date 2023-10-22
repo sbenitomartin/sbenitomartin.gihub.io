@@ -6,11 +6,11 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		prerender: {
-			handleHttpError: ({ path, referrer, message }) => {
-				return;
-			}
-		},
+		// prerender: {
+		// 	handleHttpError: ({ path, referrer, message }) => {
+		// 		return;
+		// 	}
+		// },
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
