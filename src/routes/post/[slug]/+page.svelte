@@ -1,10 +1,12 @@
 <script>
 	import { blog_title } from '$lib/constants';
+	import { stringToDate } from '$lib/utils';
+	import { base } from '$app/paths';
 	export let data;
 </script>
 
 <svelte:head>
-	<title>{data.post.title} | {blog_title}</title>
+	<title>{data.title} | {blog_title}</title>
 </svelte:head>
 
 <!-- Post Header-->
@@ -13,9 +15,9 @@
 		<div class="row gx-4 gx-lg-5 justify-content-center">
 			<div class="col-md-10 col-lg-8 col-xl-7">
 				<div class="post-heading">
-					<h1>{data.post.title}</h1>
+					<h1>{data.title}</h1>
 					<span class="meta">
-						Posted by XXX, on YYY
+						<p class="post-meta">Posted by <a class="link-light link-underlined" href="{base}/author/{data.authorSlug}">{data.author}</a> on {stringToDate(data.date).toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}</p>
 					</span>
 				</div>
 			</div>
@@ -28,7 +30,7 @@
 	<div class="container px-4 px-lg-5">
 		<div class="row gx-4 gx-lg-5 justify-content-center">
 			<div class="col-md-10 col-lg-8 col-xl-7">
-				<div>{@html data.post.content}</div>
+				<div>{@html data.content}</div>
 			</div>
 		</div>
 	</div>

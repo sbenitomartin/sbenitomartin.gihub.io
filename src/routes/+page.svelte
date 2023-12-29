@@ -1,7 +1,11 @@
 <script>
 	import { blog_title } from '$lib/constants';
 	import { base } from '$app/paths';
+	import { stringToDate } from '$lib/utils';
 	export let data;
+
+	import Pagination from '$lib/components/Pagination.svelte';
+	let values;
 </script>
 
 <svelte:head>
@@ -18,18 +22,26 @@
 			</header>
 			<!-- Posts list-->
 			<div id="post-list"></div>
-				{#each data.posts as { slug, title, subtitle, author, authorSlug, date }}
+			{#if values}
+				{#each values as { slug, title, subtitle, author, authorSlug, date }, i}
 					<!-- Post preview-->
 					<div class="post-preview">
 						<a href="{base}/post/{slug}">
 							<h2 class="post-title">{title}</h2>
 							<h3 class="post-subtitle">{subtitle}</h3>
 						</a>
-						<p class="post-meta">Posted by <a class="link-light link-underlined" href="{base}/author/{authorSlug}">{author}</a> on {date}</p>
+						<p class="post-meta">Posted by <a class="link-light link-underlined" href="{base}/author/{authorSlug}">{author}</a> on {stringToDate(date).toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}</p>
 					</div>
+					{#if i < (values.length-1)}
 					<!-- Divider-->
 					<hr class="my-4" />
+					{/if}
 				{/each}
+			{/if}
+			
+			<!-- Pager-->
+			<Pagination rows={data.posts} perPage={3} bind:trimmedRows={values} />
+
 			<!-- Pager-->
 			<nav>
 				<ul id="pagination-list" class="pagination pagination-dark justify-content-center"></ul>

@@ -20,8 +20,6 @@ export function load() {
 				authorSlug: authorSlug,
 				date: post.date
 			}
-
-		// TODO filter only the ones that are visible
 		})
 	}
 }
