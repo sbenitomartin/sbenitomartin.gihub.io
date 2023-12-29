@@ -5,7 +5,8 @@
 	export let data;
 
 	import Pagination from '$lib/components/Pagination.svelte';
-	let values;
+	let postsPerPage = 3;
+	let values = data.posts.slice(0, postsPerPage);
 </script>
 
 <svelte:head>
@@ -21,8 +22,7 @@
 				
 			</header>
 			<!-- Posts list-->
-			<div id="post-list"></div>
-			{#if values}
+			<div id="post-list">
 				{#each values as { slug, title, subtitle, author, authorSlug, date }, i}
 					<!-- Post preview-->
 					<div class="post-preview">
@@ -37,15 +37,10 @@
 					<hr class="my-4" />
 					{/if}
 				{/each}
-			{/if}
+			</div>
 			
 			<!-- Pager-->
-			<Pagination rows={data.posts} perPage={3} bind:trimmedRows={values} />
-
-			<!-- Pager-->
-			<nav>
-				<ul id="pagination-list" class="pagination pagination-dark justify-content-center"></ul>
-			</nav>
+			<Pagination rows={data.posts} perPage={postsPerPage} bind:trimmedRows={values} />
 		</div>
 	</div>
 </div>
@@ -55,4 +50,3 @@
 		<li><a href="{base}/post/{slug}">{title}</a></li>
 	{/each}
 </ul> -->
-
