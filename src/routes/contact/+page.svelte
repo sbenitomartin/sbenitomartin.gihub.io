@@ -4,7 +4,7 @@
 
 <svelte:head>
 	<title>Contact | {blog_title}</title>
-</svelte:head>
+</svelte:head>	
 
 <!-- Page Header-->
 <header class="masthead" style="background-color:transparent; padding-bottom: 0; background-image: url('');">

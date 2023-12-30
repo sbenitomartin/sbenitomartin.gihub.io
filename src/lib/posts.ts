@@ -97,6 +97,65 @@ export const posts = [
 		`.replaceAll("{base}", base)
 	},
 	{
+		title: "December 24th",
+        subtitle: "",
+        author: "Sergio Benito",
+        date: "20221224",
+        file: "20221224",
+        visible: true,
+		slug: 'december-24',
+		content:
+		`
+			<p>December 24th
+			<br>Este no es mi guion
+			<br>What am I doing this for?</p>
+
+			<p>It's bittersweet
+			<br>I remember myself ten years ago
+			<br>Jugando en noche buena con mi ordenador
+			<br>Mi madre haciendo la cena y mi padre viendo el televisor</p>
+
+			<p>Es hora de cortar el jamón
+			<br>Mi padre se levanta y también yo
+			<br>Le robo un trozo de refilón y
+			<br>Ayudo a mi madre a cortar el champiñón</p>
+
+			<p>What am I doing this for?
+			<br>What do I want?
+			<br>Love?</p>
+
+			<p>Este no es mi guión
+			<br>Esta noche buena escribiré en mi ordenador
+			<br>Comeré jamón y cortaré champiñón</p>
+
+			<p>No es lo que quiero pero es mejor
+			<br>Mejor que lo que encuentro hoy en el exterior
+			<br>I should do some work</p>
+
+			<p>My head hurts
+			<br>My heart</p>
+
+			<p>What am I doing this for?</p>
+		`
+	},
+	{
+		title: "Aféitame",
+        subtitle: "",
+        author: "Sergio Benito",
+        date: "20230526",
+        file: "20230526",
+        visible: true,
+		slug: 'afeitame',
+		content:
+		`
+			<p>Otra vez mi mente ha pensado algo bello y al ir a escribirlo se me ha olvidado. Ese tipo de cosas que me vienen a la cabeza son las que más hablan de mí porque me salen de forma inconsciente, pero nadie las escucha.</p>
+
+			<p>Mi vida entera si me pidieras afeitarme. No es que me fie de tí y no tenga miedo de que me puedas cortar, sino que cualquier oportunidad de que tu cara esté a cinco centímetros de la mía merece la pena. Si tengo que hacerme un corte en el labio no se me ocurre una situación mejor. Me pone pensar en ello y me baja un subidón desde el cuello si me imagino que tu mano fría lo toca.</p>
+
+			<p>¿Dónde estás? Eres un contacto que no encuentro en mi agenda, eres la más bella persona sin rostro, eres la idea que me vuelve loco y la que me cura la locura.</p>
+		`
+	},
+	{
 		title: "Cogerte de la mano",
         subtitle: "",
         author: "Sergio Benito",

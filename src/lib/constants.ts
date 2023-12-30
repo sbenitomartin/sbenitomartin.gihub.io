@@ -1,1 +1,1 @@
-export const blog_title = 'Mejillón Gacela'
+export const blog_title = 'Sergio Benito'
