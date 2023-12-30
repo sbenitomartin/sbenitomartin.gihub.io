@@ -351,7 +351,7 @@ body {
     }
 
     .nav-custom {
-      font-size: 1.75rem;
+      font-size: 1.60rem;
       text-transform: uppercase;
       /* color: #fff; */
       text-decoration: none; 
@@ -359,7 +359,7 @@ body {
     }
 
     .nav-link-custom {
-      font-size: 1.90rem;
+      font-size: 1.60rem;
       text-transform: uppercase;
       color: #fff;
       text-decoration: none; 
