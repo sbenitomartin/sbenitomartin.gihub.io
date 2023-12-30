@@ -1,3 +1,4 @@
+// TODO eliminar
 function collapseNavbar() {
     var _collapsed = $(".navbar-toggler").hasClass("collapsed");
     if (_collapsed === false) {
@@ -5,6 +6,8 @@ function collapseNavbar() {
     }
 }
 
+// TODO eliminar
+/********* Collapse Navbar when scroll or click outside *********/
 $(document).ready(function () {
     $(document).click(function (event) {
         var clickover = $(event.target);
@@ -17,6 +20,8 @@ $(document).ready(function () {
         collapseNavbar();
     });
 });
+
+
 
 
 // const theme = new URL(window.location).searchParams.get('theme');

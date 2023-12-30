@@ -349,3 +349,23 @@ body {
     .navbar-dark .navbar-text a,.navbar-dark .navbar-text a:focus,.navbar-dark .navbar-text a:hover {
         color: #fff
     }
+
+    .nav-custom {
+      font-size: 1.75rem;
+      text-transform: uppercase;
+      /* color: #fff; */
+      text-decoration: none; 
+      font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif, "Helvetica Neue Light", Icons
+    }
+
+    .nav-link-custom {
+      font-size: 1.90rem;
+      text-transform: uppercase;
+      color: #fff;
+      text-decoration: none; 
+      font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif, "Helvetica Neue Light", Icons
+    }
+
+    .nav-link-custom:hover {
+      color: yellow;
+    }
