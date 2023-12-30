@@ -12,7 +12,7 @@
 	<div class="container px-4 px-lg-5">
 		<a class="navbar-brand" href="{base}/">{blog_title}</a>
 		<button
-			class="navbar-toggler"
+			class="navbar-toggler collapsed"
 			type="button"
 			data-bs-toggle="collapse"
 			data-bs-target="#navbarResponsive"
@@ -37,25 +37,25 @@
 
 <slot />
 
-<!-- Footer-->
-<!-- <footer class="border-top">
+<!-- Footer -->
+<footer> <!-- class="border-top" -->
 	<div class="container px-4 px-lg-5">
 		<div class="row gx-4 gx-lg-5 justify-content-center">
 			<div class="col-md-10 col-lg-8 col-xl-7">
 				<ul class="list-inline text-center">
-					<li class="list-inline-item">
+					<!-- <li class="list-inline-item">
 						<a href="https://www.instagram.com/sergi0bm/" target="_blank">
 							<span class="fa-stack fa-lg">
 								<i class="fas fa-circle fa-stack-2x" />
 								<i class="fab fa-instagram fa-stack-1x fa-inverse" />
 							</span>
 						</a>
-					</li>
+					</li> -->
 				</ul>
-				<div class="small text-center fst-italic">
+				<!-- <div class="small text-center fst-italic">
 					Thanks for reading
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
-</footer> -->
+</footer>
