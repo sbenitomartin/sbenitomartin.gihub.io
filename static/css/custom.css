@@ -353,16 +353,22 @@ body {
     .nav-custom {
       font-size: 1.60rem;
       text-transform: uppercase;
-      color: #fff;
+      color: #ffffff95;
       text-decoration: none; 
       font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif, "Helvetica Neue Light", Icons;
       text-align: right;
     }
 
     .nav-link-custom {
+      color: #ffffffe1;
       text-decoration: none;
     }
 
     .nav-link-custom:hover {
-      color: yellow;
+      color: white!important;
+    }
+
+    a:hover {
+      color: white!important;
+      text-shadow: -2px 0px 13px rgba(255,255,255,0.8);
     }

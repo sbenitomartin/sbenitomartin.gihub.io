@@ -18,7 +18,10 @@
 	<div class="row gx-4 gx-lg-5 justify-content-center">
 		<div class="col-md-10 col-lg-8 col-xl-7">
 			<!-- Page Header-->
-			<header class="masthead" style="background-color:transparent; padding-bottom: 0; margin-bottom: -8rem; background-image: url('');">	
+			<!-- <header class="masthead" style="background-color:transparent; padding-bottom: 0; margin-bottom: -8rem; background-image: url('');">	
+			</header> -->
+
+			<header style="margin-bottom: 8rem;">	
 			</header>
 			
 			<!-- Posts list-->
