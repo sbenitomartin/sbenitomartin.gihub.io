@@ -36,7 +36,10 @@
 </nav> -->
 
 <nav>
-	<div class="ms-auto py-1 px-2 nav-custom" style="text-align: right">
+	<div class="ms-auto py-1 px-2 nav-custom d-none d-sm-block">
+		<b><a class="link-light nav-link-custom" href="{base}/">Home</a></b> | <i><a class="link-light nav-link-custom" href="{base}/about">About</a></i> | <a class="link-light nav-link-custom" href="{base}/contact">Contact</a>
+	</div>
+	<div class="ms-auto py-1 px-2 nav-custom d-block d-sm-none" style="font-size: 1.30rem;">
 		<b><a class="link-light nav-link-custom" href="{base}/">Home</a></b> | <i><a class="link-light nav-link-custom" href="{base}/about">About</a></i> | <a class="link-light nav-link-custom" href="{base}/contact">Contact</a>
 	</div>
 </nav>
