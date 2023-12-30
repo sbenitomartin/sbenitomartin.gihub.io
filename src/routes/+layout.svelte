@@ -39,7 +39,7 @@
 	<div class="ms-auto py-1 px-2 nav-custom d-none d-sm-block">
 		<b><a class="nav-link-custom" href="{base}/">Home</a></b> | <i><a class="nav-link-custom" href="{base}/about">About</a></i> | <a class="nav-link-custom" href="{base}/contact">Contact</a>
 	</div>
-	<div class="ms-auto py-1 px-2 nav-custom d-block d-sm-none" style="font-size: 1.00rem; text-align: center;">
+	<div class="ms-auto py-1 px-2 nav-custom d-block d-sm-none" style="font-size: 1.10rem; text-align: center;">
 		<b><a class="nav-link-custom" href="{base}/">Home</a></b> | <i><a class="nav-link-custom" href="{base}/about">About</a></i> | <a class="nav-link-custom" href="{base}/contact">Contact</a>
 	</div>
 </nav>
