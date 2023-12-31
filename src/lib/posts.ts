@@ -257,7 +257,7 @@ export const posts = [
 			<p>Me gritas desde el final de las escaleras. Y entonces bajo corriendo.</p>
 			<p style="opacity: 0.6">¿Por qué parece que solo me doy el permiso de amarte por un instante, aunque deseo quedarme en esta playa, parar el tiempo, besar tu espalda.</p>
 			<p>Mierda. Sí que están empinadas las escaleras.</p>
-			<p style="opacity: 0.45">¿Y si no pienso, y digo lo que siento, y te adoro? A riesgo de ser un cursi, y un hombre que replica actitudes que nacen de su apego ansioso, embadurnado de un mundo turbio en el que intendo no zambullirme pero es imposible que te salpique.</p>
+			<p style="opacity: 0.45">¿Y si no pienso, y digo lo que siento, y te adoro? A riesgo de ser un cursi, y un hombre que replica actitudes que nacen de su apego ansioso, embadurnado de un mundo turbio en el que intento no zambullirme pero es imposible que te salpique.</p>
 			<p>Qué calor. Quiero meterme en el mar. En este mar cristalino.</p>
 			<p style="opacity: 0.30">¿Y si dejo las fantasías, y dejo de soñar despierto? Y te beso. A riesgo de que no te guste y me veas con otros ojos. A riesgo de que la verdad nos quite cualquier protección que quede, nos deje paso libre, y el viento no sea de nuestro agrado.</p>
 			<p>Esta brisa me encanta. Me da la vida.</p>
