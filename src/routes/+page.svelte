@@ -21,7 +21,7 @@
 			<!-- <header class="masthead" style="background-color:transparent; padding-bottom: 0; margin-bottom: -8rem; background-image: url('');">	
 			</header> -->
 
-			<header class="d-none d-sm-block" style="margin-bottom: 8rem;">	
+			<header class="d-none d-sm-block" style="margin-bottom: 7rem;">	
 			</header>
 
 			<header class="d-block d-sm-none" style="margin-bottom: 4rem;">	
