@@ -1,6 +1,7 @@
 <script>
 	import { blog_title } from '$lib/constants';
 	import { base } from '$app/paths';
+	import Subscribers from '$lib/components/Subscribers.svelte';
 </script>
 
 <!-- <nav>
@@ -53,6 +54,7 @@
 		<div class="row gx-4 gx-lg-5 justify-content-center">
 			<div class="col-md-10 col-lg-8 col-xl-7">
 				<ul class="list-inline text-center">
+					<Subscribers />
 					<!-- <li class="list-inline-item">
 						<a href="https://www.instagram.com/sergi0bm/" target="_blank">
 							<span class="fa-stack fa-lg">
