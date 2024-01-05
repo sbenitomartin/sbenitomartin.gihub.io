@@ -13,7 +13,7 @@
 			<div class="col-md-10 col-lg-8 col-xl-7">
 				<div class="page-heading">
 					<h2>Want to get in touch?</h2>
-					<span class="subheading"><p> Send me an email to <a class="link-light link-underlined" href="mailto:sergiobm96@gmail.com">sergiobm96@gmail.com</a></p></span>
+					<span class="subheading"><p> Send me an email to <a class="link-light link-underlined" href="mailto:sergio@sergiobenito.me">sergio@sergiobenito.me</a></p></span>
 				</div>
 			</div>
 		</div>
