@@ -12,7 +12,7 @@
 	}
 
 	if (browser) { 
-    		window.location.href = base + "/blog/"
+    		window.location.href = base + "/blog"
 		}
 </script>
 
