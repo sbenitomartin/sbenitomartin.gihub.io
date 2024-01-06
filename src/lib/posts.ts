@@ -278,7 +278,8 @@ export const posts = [
 		content:
 		`
 			<p>Dear Kim, I miss you
-			<br>These months in Vermont have been crazy</p>
+			<br>These months in Vermont
+			<br>have been crazy</p>
 
 			<p>I thought I found my place
 			<br>but didn't quite do
@@ -296,18 +297,22 @@ export const posts = [
 
 			<p>But I'm tired of that shit
 			<br>What about you?
-			<br>How's your life? What are you up to?</p>
+			<br>How's your life?
+			<br>What are you up to?</p>
 
 			<p>Did you travel to Rome in summer?
 			<br>I bet you're taking a lot of pictures
 			<br>You have to show them
 			<br>make a blog or something
-			<br>That'd be awesome, I would read you</p>
+			<br>That'd be awesome
+			<br>I would read you</p>
 
-			<p>Anyways, I hope you're doing great
+			<p>Anyways
+			<br>I hope you're doing great
 			<br>And if not, that's okay
 			<br>I'm neither
-			<br>But you can always count on me if you need it
+			<br>But you can always count on me
+			<br>if you need it
 			<br>I hope you get to read this</p>
 
 			<p>Love, Stan</p>
