@@ -9,7 +9,8 @@
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
       <div class="modal-body">
-        <script async src="https://eocampaign1.com/form/57a89816-abf6-11ee-892b-7ffba58ed840.js" data-form="57a89816-abf6-11ee-892b-7ffba58ed840"></script>
+        <!-- I had to remove async fomr <script async ...> int orther to work when svelte doesn't reload the whole page but it changes de SPA content -->
+        <script src="https://eocampaign1.com/form/57a89816-abf6-11ee-892b-7ffba58ed840.js" data-form="57a89816-abf6-11ee-892b-7ffba58ed840"></script>
       </div>
     </div>
   </div>
