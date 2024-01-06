@@ -266,5 +266,51 @@ export const posts = [
 			<p style="opacity: 0.6">Y decirte lo que quiero, lo que de verdad quiero, sin ninguna intención más que la de que sepas lo que pasa por mi mente.</p>
 			<p><b><i>¡Hey!</i></b></p>
 		`
+	},
+	{
+		title: "Love, Stan",
+        subtitle: "",
+        author: "Sergio Benito",
+        date: "20240106",
+        file: "20240106",
+        visible: true,
+		slug: 'love-stan',
+		content:
+		`
+			<p>Dear Kim, I miss you
+			<br>These months in Vermont have been crazy</p>
+
+			<p>I thought I found my place
+			<br>but didn't quite do
+			<br>It was fun at the beginning
+			<br>but as soon the rush stopped
+			<br>I started to feel alone</p>
+
+			<p>The streets are sad when it rains
+			<br>the weekend plans are just okay
+			<br>the food is awful and expensive
+			<br>and the fucking job is the same
+			<br>a big shit</p>
+
+			<p>Days just skip themselves</p>
+
+			<p>But I'm tired of that shit
+			<br>What about you?
+			<br>How's your life? What are you up to?</p>
+
+			<p>Did you travel to Rome in summer?
+			<br>I bet you're taking a lot of pictures
+			<br>You have to show them
+			<br>make a blog or something
+			<br>That'd be awesome, I would read you</p>
+
+			<p>Anyways, I hope you're doing great
+			<br>And if not, that's okay
+			<br>I'm neither
+			<br>But you can always count on me if you need it
+			<br>I hope you get to read this</p>
+
+			<p>Love, Stan</p>
+		`
 	}
 ];
