@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>{data.author.name} | {blog_title}</title>
+	<title>{data.author.name}</title>
 </svelte:head>
 
 <!-- Page Header-->

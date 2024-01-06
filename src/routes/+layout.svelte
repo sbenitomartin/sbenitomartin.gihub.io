@@ -50,11 +50,13 @@
 <!-- Footer -->
 <footer>
 	<!-- class="border-top" -->
-	<div class="container px-4 px-lg-5">
+	<!-- Remove d-none class to show -->
+	<div class="container px-4 px-lg-5 d-none">
 		<div class="row gx-4 gx-lg-5 justify-content-center">
 			<div class="col-md-10 col-lg-8 col-xl-7">
 				<ul class="list-inline text-center">
-					<Subscribers />
+					<!-- <Subscribers/> -->
+
 					<!-- <li class="list-inline-item">
 						<a href="https://www.instagram.com/sergi0bm/" target="_blank">
 							<span class="fa-stack fa-lg">
