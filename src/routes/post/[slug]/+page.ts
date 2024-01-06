@@ -2,6 +2,15 @@ import { error } from '@sveltejs/kit';
 import { posts } from '$lib/posts';
 import { authors } from '$lib/authors';
 
+/* Needed to prerender all entries not only the ones referenced by a link */
+export function entries() {
+	return posts.filter((post) => post.visible == true).map((post) => {
+		return {
+			slug: post.slug
+		}
+	})
+}
+
 export function load({ params }: any) {
 	const post = posts.find((post) => post.slug === params.slug);
 

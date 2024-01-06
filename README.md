@@ -21,6 +21,11 @@ You can preview the production build with `npm run preview`.
 
 > To deploy the app adapter-static has been configured. [static-adapter](https://kit.svelte.dev/docs/adapter-static).
 
+Alternatively, if you want to test the static files generated in the buld, you can navigate to the build folder and run:
+```bash
+npx http-server
+```
+
 ## Deployment
 
 GitHub workflow has been configured to deploy automatically the page to GitHub Pages using GitHub Actions, everytime new changes are added to the main branch. It is configures in .github/workflows/deploy.yml
