@@ -242,7 +242,7 @@ export const posts = [
 		subtitle: "aa",
 		preview: 
 		`
-			<!-- <img class="img-fluid" src="{base}/img/posts/20231007/amsterdam-street-01-02-t.jpg" alt="" /> -->
+			<img class="img-fluid" src="{base}/img/posts/20231007/amsterdam-street-01-02-p.jpg" alt="" />
 		`.replaceAll("{base}", base),
 		author: "Sergio Benito",
 		date: "20231007",
