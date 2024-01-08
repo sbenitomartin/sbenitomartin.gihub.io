@@ -254,15 +254,16 @@ export const posts = [
 			<div class="lightbox">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 mb-4 mb-lg-0">
-						<img src="{base}/img/posts/20231007/amsterdam-street-1-1-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-1-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="{base}/img/posts/20231007/amsterdam-street-1-2-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-2-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="{base}/img/posts/20231007/amsterdam-street-1-3-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-3-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="{base}/img/posts/20231007/amsterdam-street-1-4-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-4-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="{base}/img/posts/20231007/amsterdam-street-1-5-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-5-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="{base}/img/posts/20231007/amsterdam-street-1-6-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-6-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="{base}/img/posts/20231007/amsterdam-street-1-7-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-7-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="{base}/img/posts/20231007/amsterdam-street-1-8-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-8-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="{base}/img/posts/20231007/amsterdam-street-1-9-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-9-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-01-01-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-01-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-01-02-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-02-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-01-03-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-03-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-01-04-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-04-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-01-05-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-05-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-01-06-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-06-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-01-07-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-07-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-01-08-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-08-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-01-09-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-09-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-01-10-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-10-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
 					</div>
 				</div>
 			</div>
