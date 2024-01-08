@@ -1,5 +1,7 @@
 import { base } from '$app/paths';
 
+/* To use {base} doing a .replaceAll("{base}", base) is needed*/
+
 export const posts = [
 	{
 		title: "Post Template",
@@ -240,8 +242,8 @@ export const posts = [
 		subtitle: "aa",
 		preview: 
 		`
-			<!-- <img src="{base}/img/posts/20231007/amsterdam-street-1-2-t.jpg" alt="" /> -->
-		`,
+			<!-- <img class="img-fluid" src="{base}/img/posts/20231007/amsterdam-street-01-02-t.jpg" alt="" /> -->
+		`.replaceAll("{base}", base),
 		author: "Sergio Benito",
 		date: "20231007",
 		file: "20231007",
