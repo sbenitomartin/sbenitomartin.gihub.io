@@ -26,6 +26,28 @@
 		<link href="%sveltekit.assets%/css/custom-colors-light.css" rel="stylesheet">
 	</head>
 	<body class="notheme">
+		<script>
+			function getCookie(name) {
+				var nameEQ = name + "=";
+				var ca = document.cookie.split(';');
+				for(var i=0;i < ca.length;i++) {
+					var c = ca[i];
+					while (c.charAt(0)==' ') c = c.substring(1,c.length);
+					if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+				}
+				return null;
+			}
+
+			const saved_theme = getCookie("theme");
+
+			if (saved_theme && saved_theme === 'light') {
+				document.body.classList.add('light');
+			} else {
+				document.body.classList.add('dark');
+			}
+
+			document.body.classList.remove('notheme');
+		</script>
 		<div style="display: contents">%sveltekit.body%</div>
 		<!-- jQuery -->
 		<script src="%sveltekit.assets%/js/jquery-3.7.1.min.js"></script>

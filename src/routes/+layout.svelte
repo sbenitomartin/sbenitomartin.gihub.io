@@ -4,43 +4,15 @@
 	import Subscribers from '$lib/components/Subscribers.svelte';
 	import { onMount } from 'svelte';
 
-	/**
-	 * @param {string} name
-	 */
-	function getCookie(name) {
-		var nameEQ = name + "=";
-		var ca = document.cookie.split(';');
-		for(var i=0;i < ca.length;i++) {
-			var c = ca[i];
-			while (c.charAt(0)==' ') c = c.substring(1,c.length);
-			if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-		}
-		return null;
-	}
-
-	onMount(() => {
-		const saved_theme = getCookie("theme");
-
-		if (saved_theme && saved_theme === 'light') {
-			document.body.classList.add('light');
-		} else {
-			document.body.classList.add('dark');
-		}
-
-		document.body.classList.remove('notheme');
-	});
 
 	function switchTheme(cookie = true) {
-		console.log(cookie);
 		var theme = '';
 		var dark = document.body.classList.contains("dark");
 		if (dark === false) {
-			console.log("a");
 			theme = 'dark';
 			document.body.classList.remove('light');
 			document.body.classList.add('dark');
 		} else {
-			console.log("b");
 			theme = 'light';
 			document.body.classList.remove('dark');
 			document.body.classList.add('light');
