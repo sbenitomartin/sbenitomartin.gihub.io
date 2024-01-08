@@ -1,16 +1,23 @@
 <script>
-	import { blog_title } from '$lib/constants';
 	import { base } from '$app/paths';
 	import Subscribers from '$lib/components/Subscribers.svelte';
 
-	function switchTheme() {
-		var _dark = document.body.classList.contains("dark");
-		if (_dark === false) {
+	function switchTheme(cookie = true) {
+		var theme = '';
+		var dark = document.body.classList.contains("dark");
+		if (dark === false) {
+			theme = 'dark';
 			document.body.classList.remove('light');
 			document.body.classList.add('dark');
 		} else {
+			theme = 'light';
 			document.body.classList.remove('dark');
 			document.body.classList.add('light');
+		}
+
+		if (cookie) {
+			const one_year = 60 * 60 * 24 * 365;
+			document.cookie = `theme=${theme}; max-age=${one_year}; path=/`;
 		}
 	}
 </script>
