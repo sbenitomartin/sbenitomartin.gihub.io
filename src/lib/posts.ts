@@ -99,6 +99,11 @@ export const posts = [
 	{
 		title: "December 24th",
         subtitle: "",
+		preview: 
+		`
+			<p>Este no es mi guion
+			<br>What am I doing this for?</p
+		`,
         author: "Sergio Benito",
         date: "20221224",
         file: "20221224",
@@ -141,6 +146,10 @@ export const posts = [
 	{
 		title: "Aféitame",
         subtitle: "",
+		preview: 
+		`
+			<p>Otra vez mi mente ha pensado algo bello y al ir a escribirlo se me ha olvidado.</p>
+		`,
         author: "Sergio Benito",
         date: "20230526",
         file: "20230526",
@@ -157,7 +166,11 @@ export const posts = [
 	},
 	{
 		title: "Cogerte de la mano",
-        subtitle: "",
+		subtitle: "",
+		preview: 
+		`
+			<p>Ahora que estoy sentado en la cama, escribiendo estas palabras...</p>
+		`,
         author: "Sergio Benito",
         date: "20230804",
         file: "20230804",
@@ -176,7 +189,11 @@ export const posts = [
 	},
 	{
 		title: "Hunger",
-        subtitle: "Some thoughts from a hot summer afternoon",
+        subtitle: "",
+		preview: 
+		`
+			<p>Some thoughts from a hot summer afternoon</p>
+		`,
         author: "Sergio Benito",
         date: "20230810",
         file: "20230810",
@@ -199,6 +216,10 @@ export const posts = [
 	{
 		title: "The impulse to survive",
         subtitle: "",
+		preview: 
+		`
+			<p>The measure of a society is how it treats its weakest members.</p>
+		`,
         author: "Sergio Benito",
         date: "20230927",
         file: "20230927",
@@ -216,7 +237,11 @@ export const posts = [
 	},
 	{
 		title: "Some pictures taken in Amsterdam",
-		subtitle: "",
+		subtitle: "aa",
+		preview: 
+		`
+			<!-- <img src="{base}/img/posts/20231007/amsterdam-street-1-2-t.jpg" alt="" /> -->
+		`,
 		author: "Sergio Benito",
 		date: "20231007",
 		file: "20231007",
@@ -227,16 +252,15 @@ export const posts = [
 			<div class="lightbox">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 mb-4 mb-lg-0">
-						<img src="{base}/img/posts/20231007/amsterdam-street-01-01-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-01-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="{base}/img/posts/20231007/amsterdam-street-01-02-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-02-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="{base}/img/posts/20231007/amsterdam-street-01-03-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-03-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="{base}/img/posts/20231007/amsterdam-street-01-04-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-04-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="{base}/img/posts/20231007/amsterdam-street-01-05-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-05-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="{base}/img/posts/20231007/amsterdam-street-01-06-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-06-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="{base}/img/posts/20231007/amsterdam-street-01-07-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-07-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="{base}/img/posts/20231007/amsterdam-street-01-08-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-08-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="{base}/img/posts/20231007/amsterdam-street-01-09-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-09-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-						<img src="{base}/img/posts/20231007/amsterdam-street-01-10-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-01-10-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-1-1-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-1-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-1-2-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-2-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-1-3-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-3-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-1-4-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-4-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-1-5-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-5-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-1-6-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-6-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-1-7-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-7-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-1-8-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-8-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20231007/amsterdam-street-1-9-t.jpg" srcset="{base}/img/posts/20231007/amsterdam-street-1-9-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
 					</div>
 				</div>
 			</div>
@@ -245,6 +269,10 @@ export const posts = [
 	{
 		title: "Lo que pasa por mi mente",
         subtitle: "",
+		preview: 
+		`
+			<p>Me gritas desde el final de las escaleras. Y entonces bajo corriendo.</p>
+		`,
         author: "Sergio Benito",
         date: "20231130",
         file: "20231130",
@@ -271,6 +299,10 @@ export const posts = [
 	{
 		title: "Love, Stan",
         subtitle: "",
+		preview: 
+		`
+			<p>Did you travel to Rome in summer?</p>
+		`,
         author: "Sergio Benito",
         date: "20240106",
         file: "20240106",
