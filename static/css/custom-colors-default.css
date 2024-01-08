@@ -1,27 +1,27 @@
 /* DARK THEME */
 
-body {
+body.dark {
   background-image: url('/img/background-dark.jpg');
   background-repeat: repeat;
   background-color: #212529;
   color: #fff;
 }
 
-body header.masthead .page-heading,
-body header.masthead .post-heading,
-body header.masthead .site-heading {
+body.dark header.masthead .page-heading,
+body.dark header.masthead .post-heading,
+body.dark header.masthead .site-heading {
   color: #fff;
 }
 
-body .post-preview>a {
+body.dark .post-preview>a {
   color: #fff;
 }
 
-body .post-preview>.post-meta {
+body.dark .post-preview>.post-meta {
   color: #6c757d;
 }
 
-body .pagination {
+body.dark .pagination {
 
   color: #f8f9fa;
 
@@ -46,28 +46,28 @@ body .pagination {
   --bs-pagination-disabled-border-color: transparent;
 }
 
-body .nav-custom {
+body.dark .nav-custom {
   color: #ffffff95;
 }
 
-body .nav-link-custom {
+body.dark .nav-link-custom {
   color: #ffffffe1;
 }
 
-body .nav-icon-custom {
+body.dark .nav-icon-custom {
   background-color: transparent;
 }
 
-body .nav-link-custom:hover {
+body.dark .nav-link-custom:hover {
   color: white !important;
 }
 
-body a {
+body.dark a {
   color: #ffffffe1;
 }
 
-a:hover,
-button:hover {
+body.dark a:hover,
+body.dark button:hover {
   color: white !important;
   text-shadow: -2px 0px 13px rgba(255, 255, 255, 0.8);
 }
