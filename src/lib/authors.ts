@@ -8,7 +8,7 @@ export const authors = [
 		slug: 'sergio-benito',
 		content:
 		`
-			I like writing and doing street photography, and I´d like to post some of that. You can also follow me on <a class="link-light link-underlined" href="https://www.instagram.com/sergi0bm/" target="_blank">instagram</a>
+			I like writing and doing street photography, and I´d like to post some of that. You can also follow me on <a class="link-underlined" href="https://www.instagram.com/sergi0bm/" target="_blank">instagram</a>
 		`	
 	}
 ];

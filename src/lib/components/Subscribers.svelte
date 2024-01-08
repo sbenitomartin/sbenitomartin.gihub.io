@@ -1,8 +1,8 @@
 <!-- You have to add a modal opener whenever you want. Example below -->
-<!-- <a class="link-light link-underlined" style="font-size: 0.95rem;" href="#subscribeModal" data-toggle="modal" data-target="#subscribeModal">Do you want to be notified of new posts?</a> -->
+<!-- <a class="link-underlined" style="font-size: 0.95rem;" href="#subscribeModal" data-toggle="modal" data-target="#subscribeModal">Do you want to be notified of new posts?</a> -->
 
 <!-- Modal -->
-<div id="subscribeModal" class="modal fade" role="dialog" style="color: black">
+<div id="subscribeModal" class="modal fade" role="dialog">
   <div class="modal-dialog modal-dialog-centered">
     <!-- Modal content-->
     <div class="modal-content">

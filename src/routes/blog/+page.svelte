@@ -37,7 +37,7 @@
 							<!-- <h3 class="post-subtitle">{subtitle}</h3> -->
 							<div>{@html preview}</div>
 						</a>
-						<!-- <p class="post-meta">Posted by <a class="link-light link-underlined" href="{base}/author/{authorSlug}">{author}</a> on {stringToDate(date).toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}</p> -->
+						<!-- <p class="post-meta">Posted by <a class="link-underlined" href="{base}/author/{authorSlug}">{author}</a> on {stringToDate(date).toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}</p> -->
 						<p class="post-meta">Posted on {stringToDate(date).toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}</p>
 					</div>
 					{#if i < (values.length-1)}

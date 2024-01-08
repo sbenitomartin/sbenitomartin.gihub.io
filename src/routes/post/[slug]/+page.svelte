@@ -18,7 +18,7 @@
 				<div class="post-heading">
 					<h1>{data.title}</h1>
 					<span class="meta">
-						<!-- <p class="post-meta">Posted by <a class="link-light link-underlined" href="{base}/author/{data.authorSlug}">{data.author}</a> on {stringToDate(data.date).toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}</p> -->
+						<!-- <p class="post-meta">Posted by <a class="link-underlined" href="{base}/author/{data.authorSlug}">{data.author}</a> on {stringToDate(data.date).toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}</p> -->
 						<p class="post-meta">Posted on {stringToDate(data.date).toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}</p>
 					</span>
 				</div>
@@ -43,7 +43,7 @@
 		<div class="col-md-10 col-lg-8 col-xl-7">
 			<ul class="list-inline text-center">
 				<!-- Subscribers modal opener -->
-				<a class="link-light link-underlined" style="font-size: 0.95rem;" href="#subscribeModal" data-toggle="modal" data-target="#subscribeModal">Do you want to be notified of new posts?</a>
+				<a class="link-underlined" style="font-size: 0.95rem;" href="#subscribeModal" data-toggle="modal" data-target="#subscribeModal">Do you want to be notified of new posts?</a>
 			</ul>
 		</div>
 	</div>

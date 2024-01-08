@@ -1,0 +1,68 @@
+/* LIGHT THEME */
+
+body.light {
+  background-image: url('/img/background-light.jpg');
+  background-repeat: repeat;
+  background-color: #fff;
+  color: #212529;
+}
+
+body.light header.masthead .page-heading,
+body.light header.masthead .post-heading,
+body.light header.masthead .site-heading {
+  color: #212529;
+}
+
+body.light .post-preview>a {
+  color: #212529;
+}
+
+body.light .post-preview>.post-meta {
+  color: #6c757d;
+}
+
+body.light .pagination {
+  
+  color: #6c757d;
+
+  --bs-pagination-color: #6c757d;
+  --bs-pagination-bg: #ffffff;
+  --bs-pagination-border-color: transparent;
+
+  --bs-pagination-hover-color: #ffffff;
+  --bs-pagination-hover-bg: #212529;
+  --bs-pagination-hover-border-color: transparent;
+
+  --bs-pagination-focus-color: #6c757d;
+  --bs-pagination-focus-bg: #ffffff;
+  --bs-pagination-focus-box-shadow: 0 0 0 0.15rem #21252940; 
+  
+  --bs-pagination-active-color: #6c757d;
+  --bs-pagination-active-bg: #ffffff;
+  --bs-pagination-active-border-color: transparent;
+
+  --bs-pagination-disabled-color: #ffffffc0;
+  --bs-pagination-disabled-bg: #6c757d90;
+  --bs-pagination-disabled-border-color: transparent;
+}
+
+body.light .nav-custom {
+  color: #353535;
+}
+
+body.light .nav-link-custom {
+  color: #353535;
+}
+
+body.light .nav-link-custom:hover {
+  color: black !important;
+}
+
+body.light a {
+  color: #000000;
+}
+
+body.light a:hover {
+  color: black !important;
+  text-shadow: -2px 0px 13px rgba(0, 0, 0, 0.8);
+}

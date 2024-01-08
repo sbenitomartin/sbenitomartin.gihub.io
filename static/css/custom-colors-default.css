@@ -1,0 +1,68 @@
+/* DARK THEME */
+
+body {
+  background-image: url('/img/background-dark.jpg');
+  background-repeat: repeat;
+  background-color: #212529;
+  color: #fff;
+}
+
+body header.masthead .page-heading,
+body header.masthead .post-heading,
+body header.masthead .site-heading {
+  color: #fff;
+}
+
+body .post-preview>a {
+  color: #fff;
+}
+
+body .post-preview>.post-meta {
+  color: #6c757d;
+}
+
+body .pagination  {
+
+  color: #f8f9fa;
+
+  --bs-pagination-color: #f8f9fa;
+  --bs-pagination-bg: #343a40;
+  --bs-pagination-border-color: transparent;
+
+  --bs-pagination-hover-color: #343a40;
+  --bs-pagination-hover-bg: #f8f9fa;
+  --bs-pagination-hover-border-color: transparent;
+
+  --bs-pagination-focus-color: #f8f9fa;
+  --bs-pagination-focus-bg: #343a40;
+  --bs-pagination-focus-box-shadow: 0 0 0 0.15rem #f8f9faa0;
+
+  --bs-pagination-active-color: #f8f9fa;
+  --bs-pagination-active-bg: #343a40;
+  --bs-pagination-active-border-color: transparent;
+
+  --bs-pagination-disabled-color: #f8f9fa;
+  --bs-pagination-disabled-bg: #272b2f;
+  --bs-pagination-disabled-border-color: transparent;
+}
+
+body .nav-custom {
+  color: #ffffff95;
+}
+
+body .nav-link-custom {
+  color: #ffffffe1;
+}
+
+body .nav-link-custom:hover {
+  color: white !important;
+}
+
+body a {
+  color: #ffffffe1;
+}
+
+body a:hover {
+  color: white !important;
+  text-shadow: -2px 0px 13px rgba(255, 255, 255, 0.8);
+}
