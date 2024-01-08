@@ -1,73 +1,78 @@
 /* DARK THEME */
 
-body.dark {
-  background-image: url('/img/background-dark.jpg');
-  background-repeat: repeat;
-  background-color: #212529;
-  color: #fff;
+body.notheme {
+  background-image: none;
+  background-repeat: none;
+  background-color: #727272;
+  color: #727272;
 }
 
-body.dark header.masthead .page-heading,
-body.dark header.masthead .post-heading,
-body.dark header.masthead .site-heading {
-  color: #fff;
+body.notheme header.masthead .page-heading,
+body.notheme header.masthead .post-heading,
+body.notheme header.masthead .site-heading {
+  color: #727272;
 }
 
-body.dark .post-preview>a {
-  color: #fff;
+body.notheme .post-preview>a {
+  color: #727272;
 }
 
-body.dark .post-preview>.post-meta {
-  color: #6c757d;
+body.notheme .post-preview>.post-meta {
+  color: #727272;
 }
 
-body.dark .pagination {
+body.notheme .pagination {
 
-  color: #f8f9fa;
+  color: #727272;
 
-  --bs-pagination-color: #f8f9fa;
-  --bs-pagination-bg: #343a40;
+  --bs-pagination-color: #727272;
+  --bs-pagination-bg: #727272;
   --bs-pagination-border-color: transparent;
 
-  --bs-pagination-hover-color: #343a40;
-  --bs-pagination-hover-bg: #f8f9fa;
+  --bs-pagination-hover-color: #727272;
+  --bs-pagination-hover-bg: #727272;
   --bs-pagination-hover-border-color: transparent;
 
-  --bs-pagination-focus-color: #f8f9fa;
-  --bs-pagination-focus-bg: #343a40;
-  --bs-pagination-focus-box-shadow: 0 0 0 0.15rem #f8f9faa0;
+  --bs-pagination-focus-color: #727272;
+  --bs-pagination-focus-bg: #727272;
+  --bs-pagination-focus-box-shadow: 0 0 0 0.15rem #727272;
 
-  --bs-pagination-active-color: #f8f9fa;
-  --bs-pagination-active-bg: #343a40;
+  --bs-pagination-active-color: #727272;
+  --bs-pagination-active-bg: #727272;
   --bs-pagination-active-border-color: transparent;
 
-  --bs-pagination-disabled-color: #f8f9fa;
-  --bs-pagination-disabled-bg: #272b2f;
+  --bs-pagination-disabled-color: #727272;
+  --bs-pagination-disabled-bg: #727272;
   --bs-pagination-disabled-border-color: transparent;
 }
 
-body.dark .nav-custom {
-  color: #ffffff95;
+body.notheme .nav-custom {
+  color: #727272;
 }
 
-body.dark .nav-link-custom {
-  color: #ffffffe1;
+body.notheme .nav-link-custom {
+  color: #727272;
 }
 
-body.dark .nav-icon-custom {
+body.notheme .nav-icon-custom {
   background-color: transparent;
 }
 
-body.dark .nav-link-custom:hover {
-  color: white !important;
+body.notheme .nav-link-custom:hover {
+  color: #727272 !important;
 }
 
-body.dark a {
-  color: #ffffffe1;
+body.notheme a {
+  color: #727272;
 }
 
-body.dark a:hover,
-body.dark button:hover {
-  color: white !important;
-  text-shadow: -2px 0px 13px rgba(255, 255, 255, 0.8);
+body.notheme a:hover,
+body.notheme button:hover {
+  color: #727272 !important;
+  text-shadow: -2px 0px 13px #727272;
 }
+
+body.notheme img{
+  opacity: 0;
+}
+

@@ -1,9 +1,6 @@
 <script>
-	import { blog_title } from '$lib/constants';
 	import { base } from '$app/paths';
 	import Subscribers from '$lib/components/Subscribers.svelte';
-	import { onMount } from 'svelte';
-
 
 	function switchTheme(cookie = true) {
 		var theme = '';
