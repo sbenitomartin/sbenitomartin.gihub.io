@@ -2,6 +2,18 @@
 	import { blog_title } from '$lib/constants';
 	import { base } from '$app/paths';
 	import Subscribers from '$lib/components/Subscribers.svelte';
+
+	function switchTheme() {
+		console.log("aaa");
+			var _dark = document.body.classList.contains("dark");
+			if (_dark === false) {
+				document.body.classList.remove('light');
+				document.body.classList.add('dark');
+			} else {
+				document.body.classList.remove('dark');
+				document.body.classList.add('light');
+			}
+	}
 </script>
 
 <!-- <nav>
@@ -38,10 +50,10 @@
 
 <nav>
 	<div class="ms-auto py-1 px-2 nav-custom d-none d-sm-block">
-		<b><a class="nav-link-custom" href="{base}/">Home</a></b> | <i><a class="nav-link-custom" href="{base}/about">About</a></i> | <a class="nav-link-custom" href="{base}/contact">Contact</a>
+		<b><a class="nav-link-custom" href="{base}/">Home</a></b> | <i><a class="nav-link-custom" href="{base}/about">About</a></i> | <a class="nav-link-custom" href="{base}/contact">Contact</a> <button class="nav-custom nav-icon-custom" on:click={() => switchTheme()} ><i class="fas fa-circle-half-stroke" /></button>
 	</div>
 	<div class="ms-auto py-1 px-2 nav-custom d-block d-sm-none" style="font-size: 1.10rem; text-align: center;">
-		<b><a class="nav-link-custom" href="{base}/">Home</a></b> | <i><a class="nav-link-custom" href="{base}/about">About</a></i> | <a class="nav-link-custom" href="{base}/contact">Contact</a>
+		<b><a class="nav-link-custom" href="{base}/">Home</a></b> | <i><a class="nav-link-custom" href="{base}/about">About</a></i> | <a class="nav-link-custom" href="{base}/contact">Contact</a> <button class="nav-custom nav-icon-custom" style="font-size: 1.10rem;" on:click={() => switchTheme()} ><i class="fas fa-circle-half-stroke" /></button>
 	</div>
 </nav>
 
