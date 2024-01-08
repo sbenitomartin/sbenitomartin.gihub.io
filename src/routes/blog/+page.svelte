@@ -29,12 +29,13 @@
 			
 			<!-- Posts list-->
 			<div id="post-list">
-				{#each values as { slug, title, subtitle, author, authorSlug, date }, i}
+				{#each values as { slug, title, subtitle, author, authorSlug, date, preview }, i}
 					<!-- Post preview-->
 					<div class="post-preview">
 						<a href="{base}/post/{slug}">
 							<h2 class="post-title">{title}</h2>
-							<h3 class="post-subtitle">{subtitle}</h3>
+							<!-- <h3 class="post-subtitle">{subtitle}</h3> -->
+							<div>{@html preview}</div>
 						</a>
 						<!-- <p class="post-meta">Posted by <a class="link-light link-underlined" href="{base}/author/{authorSlug}">{author}</a> on {stringToDate(date).toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}</p> -->
 						<p class="post-meta">Posted on {stringToDate(date).toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}</p>
@@ -51,9 +52,3 @@
 		</div>
 	</div>
 </div>
-
-<!-- <ul>
-	{#each data.summaries as { slug, title }}
-		<li><a href="{base}/post/{slug}">{title}</a></li>
-	{/each}
-</ul> -->

@@ -18,7 +18,8 @@ export function load() {
 				subtitle: post.subtitle,
 				author: post.author,
 				authorSlug: authorSlug,
-				date: post.date
+				date: post.date,
+				preview: post.preview
 			}
 		})
 	}
