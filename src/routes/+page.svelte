@@ -2,17 +2,20 @@
 	import { blog_title } from '$lib/constants';
 	import { browser } from '$app/environment';
 	import { base } from '$app/paths';
+	import { goto } from '$app/navigation';
 
 	export let data;
 
 	function redirect() {
 		if (browser) { 
-    		window.location.href = base + "/post/" + data.slug
+    		// window.location.href = base + "/post/" + data.slug
+			goto(base + "/blog");
 		}
 	}
 
 	if (browser) { 
-    		window.location.href = base + "/blog"
+    		// window.location.href = base + "/blog"
+			goto(base + "/blog");
 		}
 </script>
 

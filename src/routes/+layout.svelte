@@ -4,15 +4,14 @@
 	import Subscribers from '$lib/components/Subscribers.svelte';
 
 	function switchTheme() {
-		console.log("aaa");
-			var _dark = document.body.classList.contains("dark");
-			if (_dark === false) {
-				document.body.classList.remove('light');
-				document.body.classList.add('dark');
-			} else {
-				document.body.classList.remove('dark');
-				document.body.classList.add('light');
-			}
+		var _dark = document.body.classList.contains("dark");
+		if (_dark === false) {
+			document.body.classList.remove('light');
+			document.body.classList.add('dark');
+		} else {
+			document.body.classList.remove('dark');
+			document.body.classList.add('light');
+		}
 	}
 </script>
 
