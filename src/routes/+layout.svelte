@@ -27,7 +27,7 @@
 
 <!-- <nav>
 	<a href="{base}/">home</a>
-	<a href="{base}/post">posts list</a>
+	<a href="{base}/blog">posts list</a>
 </nav> -->
 
 <!-- <nav class="navbar navbar-expand-lg shadow-none navbar-light" id="mainNav">

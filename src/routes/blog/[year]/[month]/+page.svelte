@@ -13,6 +13,19 @@
 	<title>{blog_title}</title>
 </svelte:head>
 
+<!-- Page Header-->
+<header class="masthead" style="background-color:transparent; padding-bottom: 0; background-image: url('');  margin-top: 0; padding-top: 6rem;">
+	<div class="container position-relative px-4 px-lg-5">
+		<div class="row gx-4 gx-lg-5 justify-content-center">
+			<div class="col-md-10 col-lg-8 col-xl-7">
+				<div class="post-heading">
+					{#if data.year && data.month}<h1>Posts in {data.month} {data.year}</h1>{/if}
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
 <!-- Main Content-->
 <div class="container px-4 px-lg-5">
 	<div class="row gx-4 gx-lg-5 justify-content-center">
@@ -21,16 +34,16 @@
 			<!-- <header class="masthead" style="background-color:transparent; padding-bottom: 0; margin-bottom: -8rem; background-image: url('');">	
 			</header> -->
 
-			<header class="d-none d-sm-block" style="margin-bottom: 7rem;">	
+			<!-- <header class="d-none d-sm-block" style="margin-bottom: 7rem;">	
 			</header>
 
 			<header class="d-block d-sm-none" style="margin-bottom: 4rem;">	
-			</header>
+			</header> -->
 			
 			<!-- Posts list-->
 			<div id="post-list">
-				{#if (values.length) < 1}
-					<p>No posts</p>
+				{#if (values.length) < 1 && data.year && data.month}
+					<p>No posts for this month</p>
 				{:else}
 					{#each values as { slug, title, subtitle, author, authorSlug, date, preview }, i}
 						<!-- Post preview-->

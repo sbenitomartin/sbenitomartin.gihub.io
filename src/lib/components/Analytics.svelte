@@ -2,7 +2,7 @@
 	/* eslint-disable */
 	import { page } from '$app/stores';
 	import { analyticsStore } from '$lib/stores/analyticsStore';
-    import { browser, dev } from '$app/environment';
+    import { dev } from '$app/environment';
 
     // Si se modifica hay que modificar tambien abajo
     var MEASUREMENT_ID = 'G-YFHP5VJQV3';

@@ -1,5 +1,4 @@
 <script>
-	import { blog_title } from '$lib/constants';
 	export let data;
 </script>
 

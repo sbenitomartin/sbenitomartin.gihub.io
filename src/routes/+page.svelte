@@ -8,7 +8,7 @@
 
 	function redirect() {
 		if (browser) { 
-    		// window.location.href = base + "/post/" + data.slug
+    		// window.location.href = base + "/blog/" + data.slug
 			goto(base + "/blog");
 		}
 	}

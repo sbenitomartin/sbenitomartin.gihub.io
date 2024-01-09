@@ -1,9 +1,7 @@
 <script>
 	import { blog_title } from '$lib/constants';
 	import { stringToDate } from '$lib/utils';
-	import { base } from '$app/paths';
 	export let data;
-	import Subscribers from '$lib/components/Subscribers.svelte';
 </script>
 
 <svelte:head>
