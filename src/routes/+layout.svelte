@@ -1,6 +1,7 @@
 <script>
 	import { base } from '$app/paths';
 	import Subscribers from '$lib/components/Subscribers.svelte';
+	import Analytics from '$lib/components/Analytics.svelte';
 
 	function switchTheme(cookie = true) {
 		var theme = '';
@@ -21,6 +22,8 @@
 		}
 	}
 </script>
+
+<Analytics />
 
 <!-- <nav>
 	<a href="{base}/">home</a>

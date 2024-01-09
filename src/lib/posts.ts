@@ -234,7 +234,7 @@ export const posts = [
 			<p>I think we cannot blame our ancestors for doing so, because they were following their instinct to survive, and livestock or hunting were efficient ways to do so. But nowadays, it is possible to survive without using animals for that purpose. And animals will be animals, and some will kill others to eat them, and we can´t change or interfere in that, but we humans are at a point in which we can choose.</p>
 			<p>The same goes with plants, of course on a different level, but it can be applied. We make use of plants for our survival, and non living creatures, and in last instance, of our planet. The difference is that nowadays, the thousand of millions of humans that habitate our planet, cannot survive without this use. Who knows, maybe in the future we will be able to make all the good we need from a laboratory, without the need of interfering or making use of other living creatures.</p> 
 			<p>I would like to include myself on that group of people that decided to stop making use of animals, and stop speciesism, because we can actually do it. But personally I am not completely there, yet.</p>
-			<p>In any case, if we have to, or we just make use of something, I think a good attitude towards life would always be being thankful for all we’ve got and all the thing we make use of for our survival or enjoy. It has to be. Saying thanks to animals, plants, the sun, and the moon, is cute.</p>
+			<p>In any case, if we have to, or we just make use of something, I think a good attitude towards life would always be being thankful for all we’ve got and all the things we make use of for our survival or enjoy. It has to be. Saying thanks to animals, plants, the sun, and the moon, is cute.</p>
 		`
 	},
 	{

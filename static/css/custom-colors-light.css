@@ -5,6 +5,12 @@ body.light {
   background-repeat: repeat;
   background-color: #fff;
   color: #212529;
+
+  /* background repeats but no scroll */
+  background-attachment: fixed;
+
+  /* background-size: cover; */
+  /* background-position: center; */
 }
 
 body.light header.masthead .page-heading,
@@ -71,3 +77,15 @@ body.light button:hover {
   color: black !important;
   text-shadow: -2px 0px 13px rgba(0, 0, 0, 0.8);
 }
+
+/* WHEN TEXT IS SELECTED */
+::-moz-selection { /* Code for Firefox */
+  /* color: #6c757d; */
+  background: #6c757d90;
+}
+
+::selection {
+  /* color: #6c757d; */
+  background: #6c757d90;
+}
+/* END WHEN TEXT IS SELECTED */

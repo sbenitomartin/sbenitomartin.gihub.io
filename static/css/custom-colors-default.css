@@ -8,6 +8,12 @@ body.notheme {
   background-repeat: none;
   background-color: #727272;
   color: #727272;
+
+  /* background repeats but no scroll */
+  /* background-attachment: fixed; */
+
+  /* background-size: cover; */
+  /* background-position: center; */
 }
 
 body.notheme header.masthead .page-heading,
@@ -75,3 +81,14 @@ body.notheme button:hover {
   text-shadow: -2px 0px 13px #727272;
 }
 
+/* WHEN TEXT IS SELECTED */
+::-moz-selection { /* Code for Firefox */
+  /* color: #727272; */
+  background: #727272;
+}
+
+::selection {
+  /* color: #727272; */
+  background: #727272;
+}
+/* END WHEN TEXT IS SELECTED */
