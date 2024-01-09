@@ -2,7 +2,7 @@
 	/* eslint-disable */
 	import { page } from '$app/stores';
 	import { analyticsStore } from '$lib/stores/analyticsStore';
-    import { browser } from '$app/environment';
+    import { browser, dev } from '$app/environment';
 
     // Si se modifica hay que modificar tambien abajo
     var MEASUREMENT_ID = 'G-YFHP5VJQV3';
@@ -51,23 +51,28 @@
 	});
 </script>
   
+
+
+
 <svelte:head>
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id={MEASUREMENT_ID}"></script>
-	<script>
-		try {
-			if (typeof window !== 'undefined' && window) {
-				window.dataLayer = window.dataLayer || [];
-				function gtag() {
-					dataLayer.push(arguments);
+	{#if !dev}
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id={MEASUREMENT_ID}"></script>
+		<script>
+			try {
+				if (typeof window !== 'undefined' && window) {
+					window.dataLayer = window.dataLayer || [];
+					function gtag() {
+						dataLayer.push(arguments);
+					}
+					gtag('js', new Date());
+					// Si se modifica hay que modificar tambien arriba
+					gtag('config', 'G-YFHP5VJQV3');
 				}
-				gtag('js', new Date());
-                // Si se modifica hay que modificar tambien arriba
-				gtag('config', 'G-YFHP5VJQV3');
+				// console.log('Google analytics setup successfull');
+			} catch (err) {
+				console.log('Error setting up google analytics ', err);
 			}
-			// console.log('Google analytics setup successfull');
-		} catch (err) {
-			console.log('Error setting up google analytics ', err);
-		}
-	</script>
+		</script>
+	{/if}
 </svelte:head>
