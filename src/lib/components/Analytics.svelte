@@ -2,8 +2,15 @@
 	/* eslint-disable */
 	import { page } from '$app/stores';
 	import { analyticsStore } from '$lib/stores/analyticsStore';
+    import { browser } from '$app/environment';
 
-    const MEASUREMENT_ID = 'G-YFHP5VJQV3';
+    if(browser) {
+        // @ts-ignore
+        window.global.MEASUREMENT_ID = 'G-YFHP5VJQV3';
+    }
+
+    var MEASUREMENT_ID = 'G-YFHP5VJQV3';
+
 
 	$: {
 		// @ts-ignore
