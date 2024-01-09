@@ -65,7 +65,7 @@
                 // Si se modifica hay que modificar tambien arriba
 				gtag('config', 'G-YFHP5VJQV3');
 			}
-			console.log('Google analytics setup successfull');
+			// console.log('Google analytics setup successfull');
 		} catch (err) {
 			console.log('Error setting up google analytics ', err);
 		}
