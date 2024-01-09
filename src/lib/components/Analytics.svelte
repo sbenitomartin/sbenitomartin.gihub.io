@@ -60,7 +60,7 @@
 					dataLayer.push(arguments);
 				}
 				gtag('js', new Date());
-				gtag('config', {MEASUREMENT_ID});
+				gtag('config', MEASUREMENT_ID);
 			}
 			console.log('Google analytics setup successfull');
 		} catch (err) {
