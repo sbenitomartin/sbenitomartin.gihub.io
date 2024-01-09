@@ -4,7 +4,7 @@
 	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
 
-	export let data;
+	// export let data;
 
 	function redirect() {
 		if (browser) { 
