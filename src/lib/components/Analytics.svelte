@@ -6,7 +6,7 @@
 
     if(browser) {
         // @ts-ignore
-        window.global.MEASUREMENT_ID = 'G-YFHP5VJQV3';
+        window.MEASUREMENT_ID = 'G-YFHP5VJQV3';
     }
 
     var MEASUREMENT_ID = 'G-YFHP5VJQV3';
