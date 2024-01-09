@@ -353,5 +353,20 @@ export const posts = [
 
 			<p>Love, Stan</p>
 		`
+	},
+	{
+		title: "test",
+        subtitle: "",
+		preview: 
+		`
+			<p>this is an special experience</p>
+		`,
+        author: "Sergio Benito",
+        date: "20240109",
+        file: "20240109",
+        visible: false,
+		dynamic: false,
+		slug: 'experience-test',
+		content: null
 	}
 ];
