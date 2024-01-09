@@ -4,13 +4,8 @@
 	import { analyticsStore } from '$lib/stores/analyticsStore';
     import { browser } from '$app/environment';
 
-    if(browser) {
-        // @ts-ignore
-        window.MEASUREMENT_ID = 'G-YFHP5VJQV3';
-    }
-
+    // Si se modifica hay que modificar tambien abajo
     var MEASUREMENT_ID = 'G-YFHP5VJQV3';
-
 
 	$: {
 		// @ts-ignore
@@ -67,7 +62,8 @@
 					dataLayer.push(arguments);
 				}
 				gtag('js', new Date());
-				gtag('config', MEASUREMENT_ID);
+                // Si se modifica hay que modificar tambien arriba
+				gtag('config', 'G-YFHP5VJQV3');
 			}
 			console.log('Google analytics setup successfull');
 		} catch (err) {
