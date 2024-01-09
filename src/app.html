@@ -27,6 +27,7 @@
 	</head>
 	<body class="notheme">
 		<script>
+			// Check theme cookie and theme change on load, put in here for faster execution
 			function getCookie(name) {
 				var nameEQ = name + "=";
 				var ca = document.cookie.split(';');
@@ -48,6 +49,15 @@
 
 			document.body.classList.remove('notheme');
 		</script>
+		<script>
+			// Retrocompatibility because posts used to be under /post instead of /blog, put in here for faster execution
+			let _pathname = window.location.pathname;
+			let _baseAndPost = '/post/';
+			if(_pathname.startsWith(_baseAndPost)) {
+				let _slug = _pathname.slice(_baseAndPost.length)
+				window.location.href = '/blog/' + _slug;
+			}
+		</script>
 		<div style="display: contents">%sveltekit.body%</div>
 		<!-- jQuery -->
 		<script src="%sveltekit.assets%/js/jquery-3.7.1.min.js"></script>
@@ -56,6 +66,6 @@
 		<!-- MDB Pro JS-->
 		<script src="%sveltekit.assets%/js/mdb.min.js"></script>
 		<!-- Custom JS-->
-		<script src="%sveltekit.assets%/js/custom.js"></script>
+		<!-- <script src="%sveltekit.assets%/js/custom.js"></script> -->
 	</body>
 </html>

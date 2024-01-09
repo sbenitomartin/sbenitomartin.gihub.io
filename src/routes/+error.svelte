@@ -6,14 +6,15 @@
 	import { goto } from '$app/navigation';
 
 	// Retrocompatibility because posts used to be under /post instead of /blog
-	if(browser) {
-		let _pathname = window.location.pathname;
-		let _baseAndPost = base + '/post/';
-		if(_pathname.startsWith(_baseAndPost)) {
-			let _slug = _pathname.slice(_baseAndPost.length)
-			goto(base + '/blog/' + _slug);
-		}
-	}
+	// Moved to app.html just after body tag because it is much faster
+	// if(browser) {
+	// 	let _pathname = window.location.pathname;
+	// 	let _baseAndPost = base + '/post/';
+	// 	if(_pathname.startsWith(_baseAndPost)) {
+	// 		let _slug = _pathname.slice(_baseAndPost.length)
+	// 		goto(base + '/blog/' + _slug);
+	// 	}
+	// }
 </script>
 
 <svelte:head>
