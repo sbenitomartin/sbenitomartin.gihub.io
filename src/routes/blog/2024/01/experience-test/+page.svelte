@@ -4,6 +4,7 @@
 
 <svelte:head>
 	<title>Experience Test | {blog_title}</title>
+	<!-- <meta name="description" content=""> -->
 </svelte:head>
 
 this is a test

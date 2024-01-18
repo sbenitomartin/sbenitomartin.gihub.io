@@ -52,7 +52,7 @@ export function load({ params }: any) {
 				author: post.author,
 				authorSlug: authorSlug,
 				date: post.date,
-				preview: post.preview
+				preview: post.htmlPreview
 			}
 		}),
 		year: params.year,

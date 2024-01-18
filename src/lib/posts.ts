@@ -101,11 +101,12 @@ export const posts = [
 	{
 		title: "December 24th",
         subtitle: "",
-		preview: 
+		htmlPreview: 
 		`
 			<p>Este no es mi guion
 			<br>What am I doing this for?</p
 		`,
+		metaDescription: "Este no es mi guion. What am I doing this for?",
         author: "Sergio Benito",
         date: "20221224",
         file: "20221224",
@@ -148,10 +149,11 @@ export const posts = [
 	{
 		title: "Aféitame",
         subtitle: "",
-		preview: 
+		htmlPreview: 
 		`
 			<p>Otra vez mi mente ha pensado algo bello y al ir a escribirlo se me ha olvidado.</p>
 		`,
+		metaDescription: "Otra vez mi mente ha pensado algo bello y al ir a escribirlo se me ha olvidado.",
         author: "Sergio Benito",
         date: "20230526",
         file: "20230526",
@@ -169,10 +171,11 @@ export const posts = [
 	{
 		title: "Cogerte de la mano",
 		subtitle: "",
-		preview: 
+		htmlPreview: 
 		`
 			<p>Ahora que estoy sentado en la cama, escribiendo estas palabras...</p>
 		`,
+		metaDescription: "Ahora que estoy sentado en la cama, escribiendo estas palabras...",
         author: "Sergio Benito",
         date: "20230804",
         file: "20230804",
@@ -192,10 +195,11 @@ export const posts = [
 	{
 		title: "Hunger",
         subtitle: "",
-		preview: 
+		htmlPreview: 
 		`
 			<p>Some thoughts from a hot summer afternoon</p>
 		`,
+		metaDescription: "Some thoughts from a hot summer afternoon",
         author: "Sergio Benito",
         date: "20230810",
         file: "20230810",
@@ -218,10 +222,11 @@ export const posts = [
 	{
 		title: "The impulse to survive",
         subtitle: "",
-		preview: 
+		htmlPreview: 
 		`
 			<p>The measure of a society is how it treats its weakest members.</p>
 		`,
+		metaDescription: "The measure of a society is how it treats its weakest members.",
         author: "Sergio Benito",
         date: "20230927",
         file: "20230927",
@@ -240,10 +245,11 @@ export const posts = [
 	{
 		title: "Some pictures taken in Amsterdam",
 		subtitle: "aa",
-		preview: 
+		htmlPreview: 
 		`
 			<img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="{base}/img/posts/20231007/amsterdam-street-01-02-p.jpg" alt="" />
 		`.replaceAll("{base}", base),
+		metaDescription: "",
 		author: "Sergio Benito",
 		date: "20231007",
 		file: "20231007",
@@ -272,10 +278,11 @@ export const posts = [
 	{
 		title: "Lo que pasa por mi mente",
         subtitle: "",
-		preview: 
+		htmlPreview: 
 		`
 			<p>Me gritas desde el final de las escaleras. Y entonces bajo corriendo.</p>
 		`,
+		metaDescription: "Me gritas desde el final de las escaleras. Y entonces bajo corriendo.",
         author: "Sergio Benito",
         date: "20231130",
         file: "20231130",
@@ -302,10 +309,11 @@ export const posts = [
 	{
 		title: "Love, Stan",
         subtitle: "",
-		preview: 
+		htmlPreview: 
 		`
 			<p>Did you travel to Rome in summer?</p>
 		`,
+		metaDescription: "Did you travel to Rome in summer?",
         author: "Sergio Benito",
         date: "20240106",
         file: "20240106",
@@ -357,10 +365,11 @@ export const posts = [
 	{
 		title: "test",
         subtitle: "",
-		preview: 
+		htmlPreview: 
 		`
 			<p>this is an special experience</p>
 		`,
+		metaDescription: "",
         author: "Sergio Benito",
         date: "20240109",
         file: "20240109",

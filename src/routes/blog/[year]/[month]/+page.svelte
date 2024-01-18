@@ -11,6 +11,7 @@
 
 <svelte:head>
 	<title>{blog_title}</title>
+	<meta name="description" content="{data.posts.length} post to show on this blog in {data.month} {data.year}.">
 </svelte:head>
 
 <!-- Page Header-->

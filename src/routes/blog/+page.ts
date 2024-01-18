@@ -19,7 +19,7 @@ export function load() {
 				author: post.author,
 				authorSlug: authorSlug,
 				date: post.date,
-				preview: post.preview
+				preview: post.htmlPreview
 			}
 		})
 	}

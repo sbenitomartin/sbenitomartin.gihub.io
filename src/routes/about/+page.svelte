@@ -5,6 +5,7 @@
 
 <svelte:head>
 	<title>About | {blog_title}</title>
+	<meta name="description" content="ergio Benito. This blog is a personal project that tries to be a place to put a little bit of our souls and get away from the immediacy that surround us nowadays.">
 </svelte:head>
 
 <!-- Page Header-->

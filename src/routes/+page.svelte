@@ -21,6 +21,7 @@
 
 <svelte:head>
 	<title>{blog_title}</title>
+	<meta name="description" content="This blog is a personal project that tries to be a place to put a little bit of our souls and get away from the immediacy that surround us nowadays.">
 </svelte:head>
 
 <!-- Main Content-->

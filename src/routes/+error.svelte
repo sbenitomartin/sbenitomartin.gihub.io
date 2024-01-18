@@ -19,6 +19,7 @@
 
 <svelte:head>
 	<title>Error | {blog_title}</title>
+	<!-- <meta name="description" content=""> -->
 </svelte:head>
 
 <header class="masthead"> 

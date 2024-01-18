@@ -35,6 +35,7 @@ export function load({ params }: any) {
 		subtitle: post.subtitle,
 		author: post.author,
 		authorSlug: authorSlug,
-		date: post.date
+		date: post.date,
+		description: post.metaDescription
 	}
 }

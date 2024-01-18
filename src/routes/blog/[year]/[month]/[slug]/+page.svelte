@@ -6,6 +6,7 @@
 
 <svelte:head>
 	<title>{data.title} | {blog_title}</title>
+	<meta name="description" content="{data.description}">
 </svelte:head>
 
 <!-- Post Header-->
