@@ -37,7 +37,7 @@
 			<div class="col-md-10 col-lg-8 col-xl-7">
 				<ul class="list-group list-group-horizontal-sm text-center justify-content-center">
 					<li class="list-inline-item">
-						<a class="link-underlined" style="font-size: 0.95rem;" href="#!" on:click={redirect}>Read a random post</a>
+						<a class="link-underlined" style="font-size: 0.95rem;" href="" on:click={redirect}>Read a random post</a>
 					</li>
 					<li class="list-inline-item">
 						•
