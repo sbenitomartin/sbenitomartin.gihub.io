@@ -35,7 +35,7 @@
 	<div class="container px-4 px-lg-5">
 		<div class="row gx-4 gx-lg-5 justify-content-center">
 			<div class="col-md-10 col-lg-8 col-xl-7">
-				<ul class="list-group list-group-horizontal-sm text-center">
+				<ul class="list-group list-group-horizontal-sm text-center justify-content-center">
 					<li class="list-inline-item">
 						<a class="link-underlined" style="font-size: 0.95rem;" href="#!" on:click={redirect}>Read a random post</a>
 					</li>
