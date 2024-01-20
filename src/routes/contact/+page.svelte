@@ -14,7 +14,7 @@
 			<div class="col-md-10 col-lg-8 col-xl-7">
 				<div class="page-heading">
 					<h2>Want to get in touch?</h2>
-					<span class="subheading"><p> Send an email to <a class="link-underlined" href="mailto:contact@sergiobenito.me">contact@sergiobenito.me</a></p></span>
+					<span class="subheading"><p> Send an email to <a class="link-underlined" href="mailto:hello@sergiobenito.me">hello@sergiobenito.me</a></p></span>
 				</div>
 			</div>
 		</div>

@@ -8,7 +8,7 @@ import { base } from '$app/paths';
 
 /* Needed to prerender all entries not only the ones referenced by a link */
 export function entries() {
-	return posts.filter((post) => post.visible == true).map((post) => {
+	return posts.filter((post) => post.visible == true && !post.customHtml).map((post) => {
 		var date = stringToDate(post.date);
 		return {
 			year: date.getFullYear().toString(),

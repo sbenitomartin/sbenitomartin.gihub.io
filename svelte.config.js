@@ -2,6 +2,7 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 import { sitemapWrapAdapter } from "sveltekit-static-sitemap";
 
+// TODO const ducplicated in constants module
 const site_url = "https://sergiobenito.me";
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -18,6 +19,8 @@ const config = {
 			// 	return;
 			// }
 		},
+		// In most deployment environments, the server will check if the sitemap.xml file exists as a static asset or a prerendered route first, and only if this is not the case, the SvelteKit server will be invoked, throwing an 404.
+		// Sadly this doesn't seem to be the case for the preview server, so the sitemap will not show up when using npm run preview.
 		adapter: sitemapWrapAdapter(adapter({
 			pages: 'build',
 			assets: 'build',

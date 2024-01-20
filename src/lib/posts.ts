@@ -6,10 +6,16 @@ export const posts = [
 	{
 		title: "Post Template",
 		subtitle: "",
+		htmlPreview: 
+		`
+			<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet...</p>
+		`,
+		metaDescription: "",
 		author: "",
 		date: "20230101",
 		file: "20230101",
 		visible: false,
+		customHtml: false,
 		slug: 'post-template',
 		content:
 		`
@@ -40,10 +46,16 @@ export const posts = [
 	{
 		title: "Gallery Template",
 		subtitle: "",
+		htmlPreview: 
+		`
+			
+		`,
+		metaDescription: "",
 		author: "",
 		date: "20230101",
 		file: "20230101",
 		visible: false,
+		customHtml: false,
 		slug: 'gallery-template',
 		content:
 		`
@@ -104,13 +116,14 @@ export const posts = [
 		htmlPreview: 
 		`
 			<p>Este no es mi guion
-			<br>What am I doing this for?</p
+			<br>What am I doing this for?</p>
 		`,
 		metaDescription: "Este no es mi guion. What am I doing this for?",
         author: "Sergio Benito",
         date: "20221224",
         file: "20221224",
         visible: true,
+		customHtml: false,
 		slug: 'december-24',
 		content:
 		`
@@ -158,6 +171,7 @@ export const posts = [
         date: "20230526",
         file: "20230526",
         visible: true,
+		customHtml: false,
 		slug: 'afeitame',
 		content:
 		`
@@ -180,6 +194,7 @@ export const posts = [
         date: "20230804",
         file: "20230804",
         visible: true,
+		customHtml: false,
 		slug: 'cogerte-de-la-mano',
 		content:
 		`
@@ -204,6 +219,7 @@ export const posts = [
         date: "20230810",
         file: "20230810",
         visible: true,
+		customHtml: false,
 		slug: 'hunger',
 		content:
 		`
@@ -231,6 +247,7 @@ export const posts = [
         date: "20230927",
         file: "20230927",
         visible: true,
+		customHtml: false,
 		slug: 'the-impulse-to-survive',
 		content:
 		`
@@ -254,6 +271,7 @@ export const posts = [
 		date: "20231007",
 		file: "20231007",
 		visible: true,
+		customHtml: false,
 		slug: 'some-pictures-taken-in-amsterdam',
 		content:
 		`
@@ -287,6 +305,7 @@ export const posts = [
         date: "20231130",
         file: "20231130",
         visible: true,
+		customHtml: false,
 		slug: 'lo-que-pasa-por-mi-mente',
 		content:
 		`
@@ -318,6 +337,7 @@ export const posts = [
         date: "20240106",
         file: "20240106",
         visible: true,
+		customHtml: false,
 		slug: 'love-stan',
 		content:
 		`
@@ -374,6 +394,7 @@ export const posts = [
         date: "20240109",
         file: "20240109",
         visible: false,
+		customHtml: true,
 		dynamic: false,
 		slug: 'experience-test',
 		content: null
