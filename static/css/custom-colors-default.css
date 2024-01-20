@@ -92,3 +92,14 @@ body.notheme button:hover {
   background: #727272;
 }
 /* END WHEN TEXT IS SELECTED */
+
+body.notheme .nav_custom_sm a:hover,
+body.notheme .nav_custom_sm button:hover {
+  color: #727272 !important;
+  text-shadow: -2px 0px 13px #727272;
+}
+
+body.notheme .nav_custom_sm .nav-link-custom,
+body.notheme .nav_custom_sm .nav-icon-custom {
+  color: #ffffffe1;
+}
