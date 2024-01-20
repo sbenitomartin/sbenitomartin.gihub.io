@@ -61,11 +61,11 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
 
-  ping:
-    name: Ping Google to let it know that sitemap.xml was updated
-    needs: deploy
-    runs-on: ubuntu-latest
+  # ping:
+  #   name: Ping Google to let it know that sitemap.xml was updated
+  #   needs: deploy
+  #   runs-on: ubuntu-latest
 
-    steps:
-      - name: Send HTTP GET request
-        run: curl http://www.google.com/ping?sitemap=https://sergiobenito.me/sitemap.xml
+  #   steps:
+  #     - name: Send HTTP GET request
+  #       run: curl http://www.google.com/ping?sitemap=https://sergiobenito.me/sitemap.xml
