@@ -5,7 +5,7 @@
 	export let data;
 
 	import Pagination from '$lib/components/Pagination.svelte';
-	let postsPerPage = 3;
+	let postsPerPage = 4;
 	let values = data.posts.slice(0, postsPerPage);
 </script>
 

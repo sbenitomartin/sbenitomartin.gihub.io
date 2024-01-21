@@ -89,3 +89,15 @@ body.dark button:hover {
   background: #6c757d90;
 }
 /* END WHEN TEXT IS SELECTED */
+
+/* NAVBAR SM */
+body.dark .nav_custom_sm a:hover,
+body.dark .nav_custom_sm button:hover {
+  color: white !important;
+  text-shadow: -2px 0px 13px rgba(255, 255, 255, 0.8);
+}
+
+body.dark .nav_custom_sm .nav-link-custom,
+body.dark .nav_custom_sm .nav-icon-custom {
+  color: #ffffffe1;
+}

@@ -26,6 +26,7 @@
 	// TODO should be able to know which page we are and show differents elements on the footer
 	// Don't show "all posts" if we ar on the lists
 	// If we are on a post, "random" should not include the same, and it should also show "Next" and "Previous"
+	// (Previous | Random | Next | Subscribe)
 </script>
 
 <!-- Footer -->
