@@ -29,13 +29,14 @@
 		<script>
 			// Check theme cookie and theme change on load, put in here for faster execution
 			function getCookie(name) {
-				var nameEQ = name + "=";
-				var ca = document.cookie.split(';');
-				for(var i=0;i < ca.length;i++) {
-					var c = ca[i];
+				let nameEQ = name + "=";
+				let cookies = document.cookie.split(';');
+
+				for (let c of cookies) {
 					while (c.charAt(0)==' ') c = c.substring(1,c.length);
 					if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
 				}
+
 				return null;
 			}
 
@@ -65,7 +66,5 @@
 		<script src="%sveltekit.assets%/js/bootstrap.bundle.min.js"></script>
 		<!-- MDB Pro JS-->
 		<script src="%sveltekit.assets%/js/mdb.min.js"></script>
-		<!-- Custom JS-->
-		<!-- <script src="%sveltekit.assets%/js/custom.js"></script> -->
 	</body>
 </html>

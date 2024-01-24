@@ -32,7 +32,16 @@
 			document.body.classList.remove('body_no_scroll');
 		}
 	}
+
+
+	function dispatchResize () {
+		// @ts-ignore
+		document.getElementById('navbarResponsive').classList.remove('show');
+		nav_custom_sm_close_hidden = false;
+	}
 </script>
+
+<svelte:window on:resize={dispatchResize} />
 
 <!-- <nav>
 	<a href="{base}/">home</a>
