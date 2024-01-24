@@ -13,3 +13,8 @@ export const authors = [
 		`
 	}
 ];
+
+// TODO crear función que devuelva el author dado un post
+// export function getPostAuthor(post){
+// 	authors.find((author) => author.name === post.author)
+// }

@@ -1,7 +1,38 @@
 import { base } from '$app/paths';
 
+class Post {
+	name: string;
+	title: string;
+	subtitle: string;
+	htmlPreview: string;
+	metaDescription: string;
+	author: string;
+	date: string; // TODO Convertir a date
+	visible: boolean;
+	customHtml: boolean;
+	slug: string;
+	content: string;
+
+	public constructor(name: string, title: string, subtitle: string, htmlPreview: string, metaDescription: string, author: string, date: string, visible: boolean, customHtml: boolean, slug: string, content: string) {
+		this.name = name;
+		this.title = title;
+		this.subtitle = subtitle;
+		this.htmlPreview = htmlPreview;
+		this.metaDescription = metaDescription;
+		this.author = author;
+		this.date = date;
+		this.visible = visible;
+		this.customHtml = customHtml;
+		this.slug = slug;
+		this.content = content;
+	  }
+}
+
 /* To use {base} doing a .replaceAll("{base}", base) is needed*/
 
+// TODO crear función que dado un post lo devuelva formateado con el author para el listado 
+
+// TODO convertir a tipo Post List
 export const posts = [
 	{
 		title: "Post Template",
@@ -13,7 +44,6 @@ export const posts = [
 		metaDescription: "",
 		author: "",
 		date: "20230101",
-		file: "20230101",
 		visible: false,
 		customHtml: false,
 		slug: 'post-template',
@@ -53,7 +83,6 @@ export const posts = [
 		metaDescription: "",
 		author: "",
 		date: "20230101",
-		file: "20230101",
 		visible: false,
 		customHtml: false,
 		slug: 'gallery-template',
