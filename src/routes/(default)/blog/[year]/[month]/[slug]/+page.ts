@@ -2,13 +2,10 @@ import { error } from '@sveltejs/kit';
 import { posts } from '$lib/posts';
 import { authors } from '$lib/authors';
 import { stringToDate } from '$lib/utils.js';
-import { browser } from '$app/environment';
-import { goto } from '$app/navigation';
-import { base } from '$app/paths';
 
 /* Needed to prerender all entries not only the ones referenced by a link */
 export function entries() {
-	return posts.filter((post) => post.visible && post.customHtml == false).map((post) => {
+	return posts.filter((post) => post.visible && post.customHtml).map((post) => {
 		let date = stringToDate(post.date);
 		return {
 			year: date.getFullYear().toString(),

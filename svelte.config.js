@@ -2,7 +2,6 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 import { sitemapWrapAdapter } from "sveltekit-static-sitemap";
 
-// TODO const ducplicated in constants module
 const site_url = "https://sergiobenito.me";
 
 /** @type {import('@sveltejs/kit').Config} */

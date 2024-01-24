@@ -10,7 +10,7 @@ export function stringToDate(dateString: string) {
 
 export function isValidYear(year: string) {
     let _year = parseInt(year);
-    let text = /^[0-9]+$/;
+    let text = /^\d+$/;
     if (_year != 0) {
         if ((year != "") && (!text.test(year))) {
             return false;
@@ -19,7 +19,7 @@ export function isValidYear(year: string) {
         if (year.length != 4) {
             return false;
         }
-        
+
         let current_year=new Date().getFullYear();
         if((_year < 1920) || (_year > current_year))
             {
