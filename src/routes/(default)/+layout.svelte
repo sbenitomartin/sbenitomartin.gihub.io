@@ -6,8 +6,8 @@
 	let nav_custom_sm_close_hidden = false;
 
 	function switchTheme(cookie = true) {
-		var theme = '';
-		var dark = document.body.classList.contains('dark');
+		let theme = '';
+		let dark = document.body.classList.contains('dark');
 		if (dark === false) {
 			theme = 'dark';
 			document.body.classList.remove('light');
@@ -25,7 +25,7 @@
 	}
 
 	function bodyNoScroll() {
-		var body_no_scroll = document.body.classList.contains('body_no_scroll');
+		let body_no_scroll = document.body.classList.contains('body_no_scroll');
 		if (body_no_scroll === false) {
 			document.body.classList.add('body_no_scroll');
 		} else {

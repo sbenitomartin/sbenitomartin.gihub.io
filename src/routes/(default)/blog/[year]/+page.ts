@@ -1,6 +1,6 @@
 import { posts } from '$lib/posts';
 import { authors } from '$lib/authors';
-import { isValidMonth, isValidYear, stringToDate } from '$lib/utils';
+import { isValidYear, stringToDate } from '$lib/utils';
 import { error } from '@sveltejs/kit';
 import { browser } from '$app/environment';
 import { goto } from '$app/navigation';
@@ -50,7 +50,7 @@ export function load({ params }: any) {
 
 		return {
 			//Return only the ones in the selected year
-			posts: posts.filter((post) => post.visible == true && stringToDate(post.date).getFullYear().toString() == params.year).map((post) => {
+			posts: posts.filter((post) => post.visible && stringToDate(post.date).getFullYear().toString() == params.year).map((post) => {
 				let author = authors.find((author) => author.name === post.author)
 				let authorSlug = '#'
 

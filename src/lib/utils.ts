@@ -19,7 +19,8 @@ export function isValidYear(year: string) {
         if (year.length != 4) {
             return false;
         }
-        var current_year=new Date().getFullYear();
+        
+        let current_year=new Date().getFullYear();
         if((_year < 1920) || (_year > current_year))
             {
             return false;

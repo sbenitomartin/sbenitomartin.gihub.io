@@ -6,7 +6,7 @@
 	import {page} from '$app/stores'
 
 	function redirect() {
-		let items = posts.filter((post) => post.visible == true).map((post) => {
+		let items = posts.filter((post) => post.visible).map((post) => {
 			return {
 				slug: post.slug
 			}

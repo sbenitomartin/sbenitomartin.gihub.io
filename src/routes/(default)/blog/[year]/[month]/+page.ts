@@ -5,8 +5,8 @@ import { error } from '@sveltejs/kit';
 
 /* Needed to prerender all entries not only the ones referenced by a link */
 export function entries() {
-	var _postMap = posts.map((post) => {
-		var date = stringToDate(post.date);
+	let _postMap = posts.map((post) => {
+		let date = stringToDate(post.date);
 		return {
 			year: date.getFullYear().toString(),
 			month: date.toLocaleDateString("en-US", { month: '2-digit' })
@@ -14,7 +14,7 @@ export function entries() {
 	})
 
 	// Remove duplicates
-	var _result = _postMap.filter((value, index) => {
+	let _result = _postMap.filter((value, index) => {
 		const _value = JSON.stringify(value);
 		return index === _postMap.findIndex(obj => {
 			return JSON.stringify(obj) === _value;
@@ -38,7 +38,7 @@ export function load({ params }: any) {
 
 	return {
 		//Return only the ones in the selected year and month
-		posts: posts.filter((post) => post.visible == true && stringToDate(post.date).getFullYear().toString() == params.year && stringToDate(post.date).toLocaleDateString("en-US", { month: '2-digit' }) == params.month).map((post) => {
+		posts: posts.filter((post) => post.visible && stringToDate(post.date).getFullYear().toString() == params.year && stringToDate(post.date).toLocaleDateString("en-US", { month: '2-digit' }) == params.month).map((post) => {
 			let author = authors.find((author) => author.name === post.author)
 			let authorSlug = '#'
 
