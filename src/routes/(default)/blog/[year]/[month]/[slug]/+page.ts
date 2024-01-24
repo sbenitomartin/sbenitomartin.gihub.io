@@ -9,7 +9,7 @@ import { base } from '$app/paths';
 /* Needed to prerender all entries not only the ones referenced by a link */
 export function entries() {
 	return posts.filter((post) => post.visible == true && post.customHtml == false).map((post) => {
-		var date = stringToDate(post.date);
+		let date = stringToDate(post.date);
 		return {
 			year: date.getFullYear().toString(),
 			month: date.toLocaleDateString("en-US", { month: '2-digit'}),
