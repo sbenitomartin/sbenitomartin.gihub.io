@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/img/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!-- <meta name="color-scheme" content="dark light" /> -->
+		<meta name="color-scheme" content="dark light" />
 		%sveltekit.head%
 
 		<!-- Font Awesome CSS-->
@@ -42,6 +42,7 @@
 
 			const saved_theme = getCookie("theme");
 
+			// prefers-color-scheme of the browser/system could be checked to set in case there is no cookie
 			if (saved_theme && saved_theme === 'light') {
 				document.body.classList.add('light');
 			} else {
