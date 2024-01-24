@@ -1,16 +1,16 @@
 export function stringToDate(dateString: string) {
-    var year: number = Number(dateString.substring(0, 4));
-    var month: number = Number(dateString.substring(4, 6));
-    var day: number = Number(dateString.substring(6, 8));
+    let year: number = Number(dateString.substring(0, 4));
+    let month: number = Number(dateString.substring(4, 6));
+    let day: number = Number(dateString.substring(6, 8));
 
-    var date = new Date(year, month - 1, day);
+    let date = new Date(year, month - 1, day);
 
     return date;
 }
 
 export function isValidYear(year: string) {
     let _year = parseInt(year);
-    var text = /^[0-9]+$/;
+    let text = /^[0-9]+$/;
     if (_year != 0) {
         if ((year != "") && (!text.test(year))) {
             return false;
