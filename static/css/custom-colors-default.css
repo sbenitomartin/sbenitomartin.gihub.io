@@ -8,12 +8,6 @@ body.notheme {
   background-repeat: none;
   background-color: #727272;
   color: #727272;
-
-  /* background repeats but no scroll */
-  /* background-attachment: fixed; */
-
-  /* background-size: cover; */
-  /* background-position: center; */
 }
 
 body.notheme header.masthead .page-heading,
@@ -31,7 +25,6 @@ body.notheme .post-preview>.post-meta {
 }
 
 body.notheme .pagination {
-
   color: #727272;
 
   --bs-pagination-color: #727272;
@@ -83,12 +76,10 @@ body.notheme button:hover {
 
 /* WHEN TEXT IS SELECTED */
 ::-moz-selection { /* Code for Firefox */
-  /* color: #727272; */
   background: #727272;
 }
 
 ::selection {
-  /* color: #727272; */
   background: #727272;
 }
 /* END WHEN TEXT IS SELECTED */

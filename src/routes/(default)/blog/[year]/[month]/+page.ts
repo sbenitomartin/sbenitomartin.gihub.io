@@ -30,12 +30,6 @@ export function load({ params }: any) {
 		throw error(404, '');
 	}
 
-	// if (!isValidMonth(params.month) || !isValidYear(params.year) && browser) {
-	// 	goto(base + '/blog');
-	// }
-
-	posts.sort((a, b) => (a.date < b.date) ? 1 : (a.date === b.date) ? ((a.file < b.file) ? 1 : -1) : -1);
-
 	return {
 		//Return only the ones in the selected year and month
 		posts: posts.filter((post) => post.visible && stringToDate(post.date).getFullYear().toString() == params.year && stringToDate(post.date).toLocaleDateString("en-US", { month: '2-digit' }) == params.month).map((post) => {

@@ -2,8 +2,6 @@ import { posts } from '$lib/posts';
 import { authors } from '$lib/authors';
 
 export function load() {
-	posts.sort((a, b) => (a.date < b.date) ? 1 : (a.date === b.date) ? ((a.file < b.file) ? 1 : -1) : -1 );
-
 	return {
 		posts: posts.filter((post) => post.visible).map((post) => {
 			let author = authors.find((author) => author.name === post.author)

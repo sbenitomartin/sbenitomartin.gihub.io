@@ -8,9 +8,6 @@ body.light {
 
   /* background repeats but no scroll */
   background-attachment: fixed;
-
-  /* background-size: cover; */
-  /* background-position: center; */
 }
 
 body.light header.masthead .page-heading,
@@ -28,7 +25,6 @@ body.light .post-preview>.post-meta {
 }
 
 body.light .pagination {
-  
   color: #6c757d;
 
   --bs-pagination-color: #6c757d;
@@ -80,12 +76,10 @@ body.light button:hover {
 
 /* WHEN TEXT IS SELECTED */
 ::-moz-selection { /* Code for Firefox */
-  /* color: #6c757d; */
   background: #6c757d90;
 }
 
 ::selection {
-  /* color: #6c757d; */
   background: #6c757d90;
 }
 /* END WHEN TEXT IS SELECTED */

@@ -33,8 +33,8 @@
 				let cookies = document.cookie.split(';');
 
 				for (let c of cookies) {
-					while (c.charAt(0)==' ') c = c.substring(1,c.length);
-					if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+					let _c = c.trim();
+					if (_c.indexOf(nameEQ) == 0) return _c.substring(nameEQ.length,c.length);
 				}
 
 				return null;

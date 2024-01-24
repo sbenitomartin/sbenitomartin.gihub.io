@@ -121,7 +121,6 @@ export const posts = [
 		metaDescription: "Este no es mi guion. What am I doing this for?",
         author: "Sergio Benito",
         date: "20221224",
-        file: "20221224",
         visible: true,
 		customHtml: false,
 		slug: 'december-24',
@@ -169,7 +168,6 @@ export const posts = [
 		metaDescription: "Otra vez mi mente ha pensado algo bello y al ir a escribirlo se me ha olvidado.",
         author: "Sergio Benito",
         date: "20230526",
-        file: "20230526",
         visible: true,
 		customHtml: false,
 		slug: 'afeitame',
@@ -192,7 +190,6 @@ export const posts = [
 		metaDescription: "Ahora que estoy sentado en la cama, escribiendo estas palabras...",
         author: "Sergio Benito",
         date: "20230804",
-        file: "20230804",
         visible: true,
 		customHtml: false,
 		slug: 'cogerte-de-la-mano',
@@ -217,7 +214,6 @@ export const posts = [
 		metaDescription: "Some thoughts from a hot summer afternoon",
         author: "Sergio Benito",
         date: "20230810",
-        file: "20230810",
         visible: true,
 		customHtml: false,
 		slug: 'hunger',
@@ -245,7 +241,6 @@ export const posts = [
 		metaDescription: "The measure of a society is how it treats its weakest members.",
         author: "Sergio Benito",
         date: "20230927",
-        file: "20230927",
         visible: true,
 		customHtml: false,
 		slug: 'the-impulse-to-survive',
@@ -269,7 +264,6 @@ export const posts = [
 		metaDescription: "",
 		author: "Sergio Benito",
 		date: "20231007",
-		file: "20231007",
 		visible: true,
 		customHtml: false,
 		slug: 'some-pictures-taken-in-amsterdam',
@@ -303,7 +297,6 @@ export const posts = [
 		metaDescription: "Me gritas desde el final de las escaleras. Y entonces bajo corriendo.",
         author: "Sergio Benito",
         date: "20231130",
-        file: "20231130",
         visible: true,
 		customHtml: false,
 		slug: 'lo-que-pasa-por-mi-mente',
@@ -335,7 +328,6 @@ export const posts = [
 		metaDescription: "Did you travel to Rome in summer?",
         author: "Sergio Benito",
         date: "20240106",
-        file: "20240106",
         visible: true,
 		customHtml: false,
 		slug: 'love-stan',
@@ -392,11 +384,12 @@ export const posts = [
 		metaDescription: "",
         author: "Sergio Benito",
         date: "20240109",
-        file: "20240109",
         visible: false,
 		customHtml: true,
 		dynamic: false,
 		slug: 'experience-test',
 		content: null
 	}
-];
+].sort((a, b) => (a.date < b.date) ? 1 : -1);
+
+// .sort((a, b) => (a.date < b.date) ? 1 : (a.date === b.date) ? ((a.file < b.file) ? 1 : -1) : -1);

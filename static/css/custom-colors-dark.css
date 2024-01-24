@@ -8,9 +8,6 @@ body.dark {
   
   /* background repeats but no scroll */
   background-attachment: fixed;
-
-  /* background-size: cover; */
-  /* background-position: center; */
 }
 
 body.dark header.masthead .page-heading,
@@ -28,7 +25,6 @@ body.dark .post-preview>.post-meta {
 }
 
 body.dark .pagination {
-
   color: #f8f9fa;
 
   --bs-pagination-color: #f8f9fa;
@@ -80,12 +76,10 @@ body.dark button:hover {
 
 /* WHEN TEXT IS SELECTED */
 ::-moz-selection { /* Code for Firefox */
-  /* color: #6c757d; */
   background: #6c757d90;
 }
 
 ::selection {
-  /* color: #6c757d; */
   background: #6c757d90;
 }
 /* END WHEN TEXT IS SELECTED */
