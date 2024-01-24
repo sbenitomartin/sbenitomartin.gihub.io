@@ -5,7 +5,7 @@ import { stringToDate } from '$lib/utils.js';
 
 /* Needed to prerender all entries not only the ones referenced by a link */
 export function entries() {
-	return posts.filter((post) => post.visible && post.customHtml).map((post) => {
+	return posts.filter((post) => post.visible && !post.customHtml).map((post) => {
 		let date = stringToDate(post.date);
 		return {
 			year: date.getFullYear().toString(),
