@@ -40,14 +40,14 @@
 					<li class="list-inline-item">
 						<a class="link-underlined" style="font-size: 0.95rem;" href="" on:click={redirect}>Read a random post</a>
 					</li>
-					<li class="list-inline-item">
+					<li class="list-inline-item my-n2 my-sm-0">
 						•
 					</li>
 					{#if $page.url.pathname !== '/blog'}
 						<li class="list-inline-item">
 							<a class="link-underlined" style="font-size: 0.95rem;" href="{base}/blog">See all posts</a>
 						</li>
-						<li class="list-inline-item">
+						<li class="list-inline-item my-n2 my-sm-0">
 							•
 						</li>
 					{/if}

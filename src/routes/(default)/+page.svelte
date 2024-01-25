@@ -4,26 +4,29 @@
 	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
 
-	if (browser) { 
-    		// window.location.href = base + "/blog"
-			goto(base + "/blog");
-		}
+	if (browser) {
+		goto(base + "/blog");
+	}
 </script>
 
 <svelte:head>
 	<title>{blog_title}</title>
-	<meta name="description" content="This blog is a personal project that tries to be a place to put a little bit of our souls and get away from the immediacy that surround us nowadays.">
+	<meta
+		name="description"
+		content="This blog is a personal project that tries to be a place to put a little bit of our souls and get away from the immediacy that surround us nowadays."
+	/>
 </svelte:head>
 
 <!-- Main Content-->
-<div class="container px-4 px-lg-5">
-	<div class="row gx-4 gx-lg-5 justify-content-center">
-		<div class="col-md-10 col-lg-8 col-xl-7">
-			<!-- Page Header-->
-			<header class="d-none d-sm-block" style="margin-bottom: 7rem;">	
-			</header>
-			<header class="d-block d-sm-none" style="margin-bottom: 4rem;">	
-			</header>		
+<!-- <div class="container mt-5 px-5">
+	<div class="row justify-content-center px-0 px-sm-2 px-md-4">
+		<div class="col-md-10 col-lg-8 col-xl-7 px-0 px-sm-0 px-md-3 px-lg-5">
+			<div class="row">
+				<video class="img-fluid" autoplay loop muted><source src="{base}/video/main_page_video.mp4" type="video/mp4" /></video>
+			</div>
+			<div class="row mt-2">
+				<p style='font-size: 0.90rem; padding-left: 25%;'>Me paso el día pensando en cosas. Me vienen a la cabeza pensamientos e imágenes, o más que imágenes, sensaciones parecidas al tacto, a un primer plano, a un frame de una película, durante un segundo, y después un fundido a negro.<br><br>Las imágenes se suelen repetir con frecuencia, con pequeñas variaciones, o desde un plano distinto.</p>
+			</div>
 		</div>
 	</div>
-</div>
+</div> -->

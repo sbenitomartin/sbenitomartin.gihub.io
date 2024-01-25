@@ -275,5 +275,5 @@ button.page-item {
   overflow: hidden;
 }
 
-
-
+/* Uncomment for designing help */
+* { outline: 1px solid red; }
