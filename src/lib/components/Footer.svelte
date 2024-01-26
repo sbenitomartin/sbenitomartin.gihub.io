@@ -3,7 +3,7 @@
 	import { browser } from '$app/environment';
 	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
-	import {page} from '$app/stores'
+	import { page } from '$app/stores'
 
 	function redirect() {
 		let items = posts.filter((post) => post.visible).map((post) => {

@@ -77,7 +77,7 @@
 
 <!-- NEW SM NAV remove d-none to show-->
 <div class="d-block d-sm-none">
-	<div style="top: 5px; right: 5px; position: fixed;">
+	<div style="top :5px; right: 5px; position: fixed; z-index: 1030;">
 		<button
 			class:invisible={nav_custom_sm_close_hidden}
 			on:click="{() => nav_custom_sm_close_hidden = !nav_custom_sm_close_hidden}"
