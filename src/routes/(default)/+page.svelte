@@ -1,6 +1,12 @@
 <script>
 	import { blog_title } from '$lib/constants';
 	import { base } from '$app/paths';
+
+	let videoLoading = true;
+
+	function onload(){
+		videoLoading = false
+	}
 </script>
 
 <svelte:head>
@@ -16,7 +22,16 @@
 	<div class="row justify-content-center px-0 px-sm-2 px-md-4">
 		<div class="col-md-10 col-lg-8 col-xl-7 px-0 px-sm-0 px-md-3 px-lg-5">
 			<div class="row justify-content-center">
-				<video class="img-fluid" style="width:80%;" autoplay loop muted><source src="{base}/video/sergio_kid.mp4" type="video/mp4" /></video>
+				<!-- {#if videoLoading} -->
+					<div class="row justify-content-center align-items-center" class:d-none={!videoLoading} style="width:393px; height:278px;">
+						<div class="spinner-border" role="status">
+							<span class="visually-hidden">Loading...</span>
+						</div>
+					</div>
+				<!-- {/if} -->
+			</div>
+			<div class="row justify-content-center">
+				<video use:onload class:d-none={videoLoading} class="img-fluid" style="width:80%;" autoplay loop muted><source src="{base}/video/sergio_kid.mp4" type="video/mp4" /></video>
 			</div>
 			<div class="row mt-2">
 				<p style='font-size: 0.90rem; padding-left: 20%; padding-right: 10%;'>Me paso el día pensando en cosas. Me vienen a la cabeza pensamientos e imágenes, o más que imágenes, sensaciones parecidas al tacto, a un primer plano, a un frame de una película, durante un segundo, y después un fundido a negro.<br><br>Las imágenes se suelen repetir con frecuencia, con pequeñas variaciones, o desde un plano distinto.</p>

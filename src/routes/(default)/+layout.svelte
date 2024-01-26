@@ -76,8 +76,8 @@
 </nav> -->
 
 <!-- NEW SM NAV remove d-none to show-->
-<div class="d-block d-sm-none d-none">
-	<div class="ms-auto py-1 px-2 nav-custom">
+<div class="d-block d-sm-none">
+	<div style="top: 5px; right: 5px; position: fixed;">
 		<button
 			class:invisible={nav_custom_sm_close_hidden}
 			on:click="{() => nav_custom_sm_close_hidden = !nav_custom_sm_close_hidden}"
@@ -140,7 +140,7 @@
 
 	<!-- OLD SM NAV remove d-none to show-->
 	<div
-		class="ms-auto py-1 px-2 nav-custom d-block d-sm-none"
+		class="ms-auto py-1 px-2 nav-custom d-block d-sm-none d-none"
 		style="font-size: 1.10rem; text-align: center;"
 	>
 		<b><a class="nav-link-custom" href="{base}/">Home</a></b> |
