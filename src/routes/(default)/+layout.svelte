@@ -34,11 +34,17 @@
 		}
 	}
 
-
-	function dispatchResize () {
+	function hideSmNavbar() {
 		// @ts-ignore
 		document.getElementById('navbarResponsive').classList.remove('show');
+		bodyNoScroll()
 		nav_custom_sm_close_hidden = false;
+	}
+
+	function dispatchResize () {
+		if(nav_custom_sm_close_hidden == false) {
+			hideSmNavbar();
+		}
 	}
 </script>
 
@@ -67,19 +73,19 @@
 			<div class="nav_custom_sm">
 				{#if $page.url.pathname !== '/'}
 				<div>
-					<a class="nav-link-custom" href="{base}/">Home</a>
+					<a on:click={() => hideSmNavbar()} class="nav-link-custom" href="{base}/">Home</a>
 				</div>
 				{/if}
 				{#if $page.url.pathname !== '/blog'}
 				<div>
-					<a class="nav-link-custom" href="{base}/blog">List</a>
+					<a on:click={() => hideSmNavbar()} class="nav-link-custom" href="{base}/blog">List</a>
 				</div>
 				{/if}
 				<div>
-					<a class="nav-link-custom" href="{base}/about">About</a>
+					<a on:click={() => hideSmNavbar()} class="nav-link-custom" href="{base}/about">About</a>
 				</div>
 				<div>
-					<a class="nav-link-custom" href="{base}/contact">Contact</a>
+					<a on:click={() => hideSmNavbar()} class="nav-link-custom" href="{base}/contact">Contact</a>
 				</div>
 				<div>
 					<button
@@ -90,8 +96,7 @@
 				</div>
 
 				<button
-					on:click="{() => nav_custom_sm_close_hidden = !nav_custom_sm_close_hidden}"
-					on:click={() => bodyNoScroll()}
+					on:click={() => hideSmNavbar()}
 					class="nav_custom_sm_close nav-custom nav-icon-custom navbar-toggler collapsed"
 					style="font-size: 2.50rem;"
 					type="button"
