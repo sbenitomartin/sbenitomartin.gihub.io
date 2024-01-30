@@ -4,7 +4,7 @@
 	import Subscribers from '$lib/components/Subscribers.svelte';
 	import { page } from '$app/stores'
 
-	let nav_custom_sm_close_hidden = false;
+	let nav_sm_open_button_hidden = false;
 
 	function switchTheme(cookie = true) {
 		let theme = '';
@@ -38,11 +38,11 @@
 		// @ts-ignore
 		document.getElementById('navbarResponsive').classList.remove('show');
 		bodyNoScroll()
-		nav_custom_sm_close_hidden = false;
+		nav_sm_open_button_hidden = false;
 	}
 
 	function dispatchResize () {
-		if(nav_custom_sm_close_hidden == false) {
+		if(nav_sm_open_button_hidden === true) {
 			hideSmNavbar();
 		}
 	}
@@ -55,8 +55,8 @@
 	<div class="d-block d-sm-none">
 		<div style="top :5px; right: 5px; position: fixed; z-index: 1030;">
 			<button
-				class:invisible={nav_custom_sm_close_hidden}
-				on:click="{() => nav_custom_sm_close_hidden = !nav_custom_sm_close_hidden}"
+				class:invisible={nav_sm_open_button_hidden}
+				on:click="{() => nav_sm_open_button_hidden = !nav_sm_open_button_hidden}"
 				on:click={() => bodyNoScroll()}
 				class="nav_custom_sm_open nav-custom nav-icon-custom navbar-toggler collapsed d-sm-none"
 				style="font-size: 2.50rem; right: 0; top: 0;"
