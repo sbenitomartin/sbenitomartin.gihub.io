@@ -140,6 +140,73 @@ export const posts = [
 		`.replaceAll("{base}", base)
 	},
 	{
+		title: "Vuelta a empezar",
+        subtitle: "",
+		htmlPreview: 
+		`
+			<p>¿qué es el amor?</p>
+		`,
+		metaDescription: "¿qué es el amor?",
+        author: "Sergio Benito",
+        date: "20190430",
+        visible: true,
+		customHtml: false,
+		slug: 'vuelta-a-empezar',
+		content:
+		`
+			<p>eras mi vida
+			<br>ahora
+			<br>solo una mentira</p>
+
+			<p>¿qué es el amor?
+			<br>dices mientras clavas en mi herida
+			<br>tu silencio desgarrador</p>
+
+			<p>estás solo
+			<br>te quejas</p>
+
+			<p>me conoces</p>
+
+			<p>al oído
+			<br>me dices</p>
+			
+			<p>te quiero</p>
+
+			<p>tu silencio
+			<br>son rejas</p>
+
+			<p>me dejas
+			<br>herido</p>
+
+			<p>no tengo ningún motivo para seguir</p>
+
+			<p>no esperaré con ganas que llegue el fin de semana
+			<br>para verte</p>
+
+			<p>daré mil vueltas en la cama
+			<br>antes de dormirme</p>
+
+			<p>suplicaré al mundo sentir tu piel junto a mi piel
+			<br>mientras me miento diciendo que no pasa nada
+			<br>repitiendo que todo saldrá bien</p>
+
+			<p>te quería
+			<br>me querías</p>
+
+			<p>no existía el mañana</p>
+
+			<p>eras mi vida
+			<br>ahora</p>
+
+			<p>te odio
+			<br>te olvido</p>
+
+			<p>pronto</p>
+
+			<p>desconocidos</p>
+		`
+	},
+	{
 		title: "December 24th",
         subtitle: "",
 		htmlPreview: 

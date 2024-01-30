@@ -19,7 +19,7 @@
 					<h1>{data.title}</h1>
 					<span class="meta">
 						<!-- <p class="post-meta">Posted by <a class="link-underlined" href="{base}/author/{data.authorSlug}">{data.author}</a> on {stringToDate(data.date).toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}</p> -->
-						<p class="post-meta">Posted on {stringToDate(data.date).toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+						<p class="post-meta">{stringToDate(data.date).toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}</p>
 					</span>
 				</div>
 			</div>
