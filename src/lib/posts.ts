@@ -489,7 +489,7 @@ export const posts = [
 
 			<p>El futuro no existe. El pasado tampoco.</p>
 
-			<p>Solo estoy yo, y estas líneas que estoy escribiendo. El mundo es mi habitación ambientada con una luz roja comprada por internet. La vida no tiene fin, no tiene sentido. No soy un lienzo en blanco, pero quien soy y como he llegado hasta aquí es difuso. No me apetece rebuscar. Me gustaría quedarme en este estado por un tiempo, un poco más que de lo que las necesidades mortales y humanas me permitirán. Creo.</p>
+			<p>Solo estoy yo, y estas líneas que estoy escribiendo. El mundo es mi habitación ambientada con una luz roja comprada por internet. La vida no tiene fin, no tiene sentido. No soy un lienzo en blanco, pero quien soy y como he llegado hasta aquí es difuso. No me apetece rebuscar. Me gustaría quedarme en este estado por un tiempo, un poco más de lo que las necesidades mortales y humanas me permitirán. Creo.</p>
 
 			<p>¿Es todo parte de mi imaginación? Al menos, todo ocurre en mi mente. ¿Verdad? Pero a veces es tan bonito cuando parece que no es así, sino que nuestra mente y la de otra persona se miran, y se sonríen. Todos estamos metidos en este juego que llamamos vida. Está guay, está entretenido. Está gracioso, a veces, cuando nuestra mente tiene un poco de aire para disfrutar de su existencialidad.</p>
 
