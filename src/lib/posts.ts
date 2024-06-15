@@ -505,6 +505,29 @@ export const posts = [
 		`
 	},
 	{
+		title: "Estoy vivo",
+        subtitle: "",
+		htmlPreview: 
+		`
+			<p>Por no se cuantas veces ya, me siento delante de un papel en blanco...</p>
+		`,
+		metaDescription: "Por no se cuantas veces ya, me siento delante de un papel en blanco...",
+        author: "Sergio Benito",
+        date: "20240504",
+        visible: true,
+		customHtml: false,
+		slug: 'estoy-vivo',
+		content:
+		`
+			<p>Por no se cuantas veces ya, me siento delante de un papel en blanco, cruzando unos dedos imaginarios, para que esta vez consiga seguir escribiendo, supere mis miedos, y deje salir lo que sea que haya.</p>
+			<p>Para qué fingir que mis palabras hablan de un personaje ficticio, si todos sabemos que los artistas hablan de ellos mismos, con alguna decoración o licencia poética, y yo no soy una excepción.</p>
+			<p>Me he llamado artista, algo que no me permití decir de mí hasta hace no mucho.</p>
+			<p>El miedo es una mierda, porque no me escucho, y hago lo más horrible que puedes hacer. No ser tú mismo.</p>
+			<p>Estoy vivo, o al menos creo que estoy vivo por ahora. Lo siento en el corazón, y me vienen no como palabras, sino como sensaciones, mil cosas que quiero compartir, que quiero seguir escribiendo.</p>
+			<p>Quiero seguir siendo yo mismo.</p>
+		`
+	},
+	{
 		title: "test",
         subtitle: "",
 		htmlPreview: 
