@@ -316,7 +316,7 @@ export const posts = [
 		content:
 		`
 			<blockquote class="blockquote">I'm starving. Omg. Look at that pizza, it looks delicious. I'm gonna eat three of them. I, I, I’m idealizing it, ok, it's true. But I am so hungry.</blockquote>
-			<p>In the end, I ate a hole pizza, I felt bad, I didn't really wanted to do it, but I was so hungry. Except, pizza is you, and food is love. I’m starving, of love.</p>
+			<p>In the end, I ate a hole pizza, I felt bad, I didn't really want to do it, but I was so hungry. Except, pizza is you, and food is love. I’m starving, of love.</p>
 			<p>When I have a little bit of love, romantic, couple, partner, sexual, passionate, intimate, especial, intense love, I’m not that hungry for several days.</p>
 			<p>I would like to have a little bit of that every now and then. Ok, I'm gonna be honest. I would love to have a fair amount of that every day, at least for a while. Seems a little bit like if I have a slice of pizza every day for one year, maybe I will never have a craving for pizza that intense never again.</p>
 			<p>I’ve been starving for ten years, and I’ve been idealizing that kind of love and relationships.</p>
