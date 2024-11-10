@@ -352,7 +352,7 @@ export const posts = [
 	},
 	{
 		title: "Some pictures taken in Amsterdam",
-		subtitle: "aa",
+		subtitle: "",
 		htmlPreview: 
 		`
 			<img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="{base}/img/posts/20231007/amsterdam-street-01-02-p.jpg" alt="" />
@@ -528,6 +528,38 @@ export const posts = [
 		`
 	},
 	{
+		title: "Some colors captured in 2024",
+		subtitle: "",
+		htmlPreview: 
+		`
+			<img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="{base}/img/posts/20241110/colors-01-01-p.jpg" alt="" />
+		`.replaceAll("{base}", base),
+		metaDescription: "",
+		author: "Sergio Benito",
+		date: "20241110",
+		visible: true,
+		customHtml: false,
+		slug: 'some-colors-captured-in-2024',
+		content:
+		`
+			<div class="lightbox">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 mb-4 mb-lg-0">
+						<img src="{base}/img/posts/20241110/colors-01-01-f.jpg" srcset="{base}/img/posts/20241110/colors-01-01-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20241110/colors-01-02-f.jpg" srcset="{base}/img/posts/20241110/colors-01-02-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20241110/colors-01-03-f.jpg" srcset="{base}/img/posts/20241110/colors-01-03-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20241110/colors-01-04-f.jpg" srcset="{base}/img/posts/20241110/colors-01-04-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20241110/colors-01-05-f.jpg" srcset="{base}/img/posts/20241110/colors-01-05-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20241110/colors-01-06-f.jpg" srcset="{base}/img/posts/20241110/colors-01-06-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20241110/colors-01-07-f.jpg" srcset="{base}/img/posts/20241110/colors-01-07-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20241110/colors-01-08-f.jpg" srcset="{base}/img/posts/20241110/colors-01-08-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+						<img src="{base}/img/posts/20241110/colors-01-09-f.jpg" srcset="{base}/img/posts/20241110/colors-01-09-f.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+					</div>
+				</div>
+			</div>
+		`.replaceAll("{base}", base)
+	},
+	{
 		title: "test",
         subtitle: "",
 		htmlPreview: 
@@ -536,7 +568,7 @@ export const posts = [
 		`,
 		metaDescription: "",
         author: "Sergio Benito",
-        date: "20240109",
+        date: "20241212",
         visible: false,
 		customHtml: true,
 		dynamic: false,
