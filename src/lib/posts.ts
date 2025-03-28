@@ -564,8 +564,8 @@ export const posts = [
 		subtitle: "A short made by me for class",
 		htmlPreview: 
 		`
-			<p>A short made by me for class</p>
-		`,
+			<img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="{base}/img/posts/20250328/balcony-01.jpg" alt="" />
+		`.replaceAll("{base}", base),
 		metaDescription: "",
 		author: "Sergio Benito",
 		date: "20250328",
@@ -574,6 +574,7 @@ export const posts = [
 		slug: 'the-balcony-in-the-opposite-building',
 		content:
 		`
+			<p>A short made by me for class</p>
 			<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1070448253?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="the_balcony_in_the_opposite_building"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 		`.replaceAll("{base}", base)
 	},
