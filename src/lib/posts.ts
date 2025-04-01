@@ -579,6 +579,36 @@ export const posts = [
 		`.replaceAll("{base}", base)
 	},
 	{
+		title: "Mi universo particular",
+		subtitle: "A short made by me for class",
+		htmlPreview: 
+		`
+			<p>La señora de enfrente tampoco es que me transmita paz precisamente.</p>
+		`,
+		metaDescription: "",
+		author: "Sergio Benito",
+		date: "20250401",
+		visible: true,
+		customHtml: false,
+		slug: 'mi-universo-particular',
+		content:
+		`
+			<p>Me incomoda un poco que la señora de al lado hunda repetidas e interminables veces sus dedos nerviosos en la pantalla de su teléfono móvil. La señora de enfrente tampoco es que me transmita paz precisamente. Sus ojos no están enrojecidos pero siento que se le van a salir de un momento a otro, y que el único motivo por el que no lo hacen es porque por cada milímetro que salen, su cuello cae un milímetro para compensar el movimiento.</p>
+
+			<p>El señor al otro lado del pasillo del vagón, y el señor que tiene enfrente, parecen un poco menos perturbados, y sus espaldas y cuellos un poco menos encorvados, pero igualmente no separan su mirada del universo particular de sus teléfonos móviles.</p>
+
+			<p>La señora que está a mí lado se acaba de guardar el móvil en la chaqueta. Pero antes de que me diera tiempo a escribir la frase anterior, ya lo ha vuelto a coger entre sus manos. Después, eso sí, de mirarse las uñas tres veces en el lapso de siete u ocho segundos.</p>
+
+			<p>Sería pretencioso afirmar que todo el vagón está perdido en su móvil, pero hasta donde me alcanza la vista, y me he girado hacia atrás y asomado hacia delante, no he podido encontrar ninguna excepción.</p>
+
+			<p>De repente, y después de una hora y media desde que me desperté, yo mismo siento la urgencia de escuchar una canción, de comprobar si tengo algún mensaje, o de hundir mis dedos repetidas veces en busca de algo en mi teléfono móvil. De perderme en mi universo particular, al menos uno de ellos, probablemente uno de los más tontamente adictivos, al menos por un rato.</p>
+
+			<p>Sin embargo lo que realmente me gustaría hacer es caminar por una pradera verde en un día soleado. Soleado pero no caluroso. Acariciar a un caballo que se ha separado de su grupo, acercándose a mí por curiosidad. Bajar por la pradera hasta un arroyo de agua cristalina, y beber de él. Cruzar el arroyo para llegar al bosque que está al otro lado, y al cruzar, sentir el agua fría pasar por los dedos de mis pies, y sentir el impulso de querer meter mi cuerpo completo en el agua.</p>
+
+			<p>Bañarme en el arroyo, mientras un par de caballos se acercan a beber. Al levantarme, recibir de nuevo el calor del sol en mi piel. Darme media vuelta hacia el bosque, y sentir como su profundidad me llama. Entrar en el bosque y perderme en mi universo particular.</p>
+		`
+	},
+	{
 		title: "test",
         subtitle: "",
 		htmlPreview: 
