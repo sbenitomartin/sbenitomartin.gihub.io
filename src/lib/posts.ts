@@ -575,7 +575,9 @@ export const posts = [
 		content:
 		`
 			<p>A short made by me for class</p>
-			<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1070448253?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="the_balcony_in_the_opposite_building"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+			<div style="padding:56.25% 0 0 0;position:relative;">
+				<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube-nocookie.com/embed/NaA2ncaCv4g?si=AbXYEQb_UOl0wDgv" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
 		`.replaceAll("{base}", base)
 	},
 	{
@@ -607,6 +609,27 @@ export const posts = [
 
 			<p>Bañarme en el arroyo, mientras un par de caballos se acercan a beber. Al levantarme, recibir de nuevo el calor del sol en mi piel. Darme media vuelta hacia el bosque, y sentir como su profundidad me llama. Entrar en el bosque y perderme en mi universo particular.</p>
 		`
+	},
+	{
+		title: "Tree Bark",
+		subtitle: "Your whole life in boxes",
+		htmlPreview: 
+		`
+			<img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="{base}/img/posts/20250626/tree-bark-01.jpg" alt="" />
+		`.replaceAll("{base}", base),
+		metaDescription: "",
+		author: "Sergio Benito",
+		date: "20250626",
+		visible: true,
+		customHtml: false,
+		slug: 'tree-bark',
+		content:
+		`
+			<p>Another short made with the guidance of my teacher</p>
+			<div style="padding:56.25% 0 0 0;position:relative;">
+				<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube-nocookie.com/embed/8c3yAeOoqgw?si=3boOxs7q3cWzOIDW" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+		`.replaceAll("{base}", base)
 	},
 	{
 		title: "test",
